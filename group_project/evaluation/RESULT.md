@@ -8,8 +8,8 @@
 | Framework and version              | ragas |
 | Evaluator model                    | gpt-4o-mini (OpenAI, LLM-as-judge) |
 | Generator model                    | openai / gpt-4o-mini |
-| Embedding model                    | sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (fastembed/ONNX) |
-| Corpus version/commit              | data/standardized/legal (luat-nha-o, luat-kinh-doanh-bds, mau-so-1a) |
+| Embedding model                    | BAAI/bge-m3 (dim 1024, qua src/task4) |
+| Corpus version/commit              | data/standardized/legal (4 văn bản) + data/standardized/news (8 bài) — ChromaDB 2147 chunk |
 | Golden dataset size                | 20 |
 | `top_k`                            | 5 |
 | Fallback threshold and calibration | Không dùng fallback PageIndex trong bản demo này; chỉ so sánh dense-only và hybrid+RRF |
@@ -30,6 +30,10 @@ Hai cấu hình dùng chung golden dataset, generator, evaluator, prompt và `to
 | Context recall    | 0.771 | 0.808 | 0.037 |
 | Context precision | 0.84 | 0.825 | -0.015 |
 | **Average**       | 0.693 | 0.715 | 0.022 |
+
+## Phân tích metric A vs B — Cơ chế cải thiện và tradeoff
+
+Config B (hybrid+RRF) cho điểm trung bình cao hơn 0.022 nhưng `answer_relevance` giảm 0.043 và `context_precision` giảm 0.015. Nguyên nhân: BM25 thêm vào retrieval khớp từ khoá nên kéo về nhiều chunk chứa đúng thuật ngữ trong câu hỏi, làm context giàu trích dẫn luật hơn. Hệ quả là `faithfulness` tăng 0.109 (LLM bám sát nguồn hơn) và `context_recall` tăng 0.037 (bao phủ ý đúng hơn), nhưng câu trả lời có xu hướng **trích dẫn điều khoản thay vì trả lời trực tiếp** — RAGAS chấm `answer_relevancy` thấp. Bằng chứng rõ ràng ở câu #3: `faithfulness=0.5` (LLM sinh trích dẫn luật chính xác) nhưng `answer_relevancy=0` (không trả lời câu hỏi "xác định như thế nào"). Thêm vào đó, `context_precision` giảm nhẹ vì BM25 đưa thêm chunk khớp từ khoá nhưng không khớp ý định câu hỏi. Dù vậy, Config B vẫn tốt hơn cho bài toán tra cứu pháp luật vì `faithfulness` và `context_recall` là hai tiêu chí quan trọng hơn ở domain này — trả lời sai luật nguy hiểm hơn trả lời dài dòng. Hướng cải thiện tiếp theo: chỉnh system prompt buộc LLM trả lời trực tiếp câu hỏi ở câu đầu rồi mới trích dẫn điều khoản.
 
 ## A/B comparison
 

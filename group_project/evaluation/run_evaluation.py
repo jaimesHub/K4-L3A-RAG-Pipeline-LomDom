@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from chatbot import engine  # noqa: E402
+from src.task4_chunking_indexing import EMBEDDING_MODEL as PIPELINE_EMBEDDING_MODEL, EMBEDDING_DIM  # noqa: E402
 
 EVAL_DIR = Path(__file__).resolve().parent
 GOLDEN_PATH = EVAL_DIR / "golden_dataset.json"
@@ -183,6 +184,10 @@ def render_result_md(rows_a: list[dict], rows_b: list[dict], golden: list[dict])
 
     better = "Config B (hybrid + RRF)" if overall_b >= overall_a else "Config A (dense-only)"
 
+    # Đếm số file corpus thật
+    _legal_n = len(list((ROOT / "data/standardized/legal").glob("*.md")))
+    _news_n = len(list((ROOT / "data/standardized/news").glob("*.md")))
+
     content = f"""# RAG evaluation results
 
 ## Run information
@@ -193,8 +198,8 @@ def render_result_md(rows_a: list[dict], rows_b: list[dict], golden: list[dict])
 | Framework and version              | ragas |
 | Evaluator model                    | gpt-4o-mini (OpenAI, LLM-as-judge) |
 | Generator model                    | {engine.config.LLM_PROVIDER} / {engine.config.LLM_MODEL or engine.config.DEFAULT_MODELS.get(engine.config.LLM_PROVIDER, '')} |
-| Embedding model                    | {engine.config.EMBEDDING_MODEL} (fastembed/ONNX) |
-| Corpus version/commit              | data/standardized/legal (luat-nha-o, luat-kinh-doanh-bds, mau-so-1a) |
+| Embedding model                    | {PIPELINE_EMBEDDING_MODEL} (dim {EMBEDDING_DIM}, qua src/task4) |
+| Corpus version/commit              | data/standardized/legal ({_legal_n} văn bản) + data/standardized/news ({_news_n} bài) |
 | Golden dataset size                | {len(golden)} |
 | `top_k`                            | {TOP_K} |
 | Fallback threshold and calibration | Không dùng fallback PageIndex trong bản demo này; chỉ so sánh dense-only và hybrid+RRF |

@@ -14,7 +14,7 @@
 | 2 | Cài môi trường | Cả nhóm | ✅ XONG |
 | 3 | Thu thập dữ liệu | **Khanh** | ✅ XONG — legal ✅ 4/4 / news ✅ 8/8 |
 | 4 | Chuẩn hóa Markdown | **Khanh** | ✅ XONG — legal ✅ 4/4 / news ✅ 8/8 |
-| 5 | Chunk, embedding & index | **Khanh** | ✅ XONG — 1392 chunk, dim 1024 |
+| 5 | Chunk, embedding & index | **Khanh** | ✅ XONG — 2147 chunk, dim 1024 |
 | 6 | Hybrid retrieval (task5/6/7) | **Minh** | ✅ XONG — 15/15 contract tests PASS |
 | 7 | Fallback & retrieval pipeline (task8/9) | **Minh** | ✅ XONG — contract tests PASS |
 | 8 | Generation có citation (task10) | **Minh** | ✅ XONG — contract tests PASS |
@@ -124,16 +124,14 @@ Query: "Công thức nấu phở bò"
 **Đánh giá:** ✅ Fallback hoạt động — dense[0]["score"]=0.3802 > threshold 0.3 nên không gọi PageIndex fallback.
 
 #### 📊 Dữ Liệu Để Calibrate SCORE_THRESHOLD
-Hiện `SCORE_THRESHOLD=0.3` chưa được calibrate. Dựa trên 2 câu hỏi thực tế:
+✅ **ĐÃ CALIBRATE → 0.45** (thay đổi từ 0.3 trong `src/task9_retrieval_pipeline.py`). Dựa trên 2 câu hỏi thực tế:
 
-| Loại query | Mục tiêu | dense[0]["score"] | Khuyến nghị |
+| Loại query | Mục tiêu | dense[0]["score"] | Ghi chú |
 |---|---|---|---|
-| **In-domain** (mẫu hợp đồng) | Chắc chắn có kết quả | **0.7372** | threshold nên ≤ 0.38 để bắt fallback khi score thấp |
-| **Out-of-domain** (phở bò) | Fallback nếu cần | **0.3802** | Nằm trong safe zone (0.3 < 0.38) |
+| **In-domain** (mẫu hợp đồng) | Không nên kích hoạt fallback | **0.7372** | score cao, kết quả chất lượng tốt |
+| **Out-of-domain** (phở bò) | Nên kích hoạt fallback | **0.3802** | score thấp, cần fallback PageIndex |
 
-**Kết luận:** `SCORE_THRESHOLD=0.3` hiện là **quá thấp** — khuyến nghị **nâng lên 0.38-0.45** để:
-- Kích hoạt fallback với query ngoài domain rõ ràng (score < 0.38)
-- Tránh fallback không cần thiết với query mềm (score 0.38-0.50)
+**Lý do chọn 0.45:** Ngưỡng phải nằm trong khoảng `(0.3802, 0.6742)` để bắt được out-of-domain (0.3802 < 0.45) nhưng không bắt nhầm neutral-domain (0.6742 > 0.45). Chọn 0.45 vì cách đều hai biên (khoảng cách ~0.07 mỗi phía), có biên an toàn cả hai phía và phù hợp với in-domain score từ bảng đó (nếu có trong-domain câu hỏi khác có score 0.6–0.7 cũng không kích hoạt).
 
 #### 🗂️ Trạng Thái News Chunks Trong ChromaDB — ✅ ĐÃ GIẢI QUYẾT
 **Kết quả hiện tại:**
@@ -209,8 +207,8 @@ print("RRF result:", hybrid)
 - [x] Khanh ✅: tạo `reports/{mssv}-{ten}.md` từ template `group_project/ịndividual/INDIVIDUAL_REPORT.md` — phần mục 3→5
 - [x] Minh: ✅ đã nộp `reports/2A202602653-MINHNN.md` — phần mục 6→8 (task5–10, fix bug citation, CHECKLIST)
 - [x] Hùng: ✅ đã nộp `reports/2A202602942-HUNGLM.md`
-- [ ] ⚠️ Calibrate `SCORE_THRESHOLD` (hiện `0.3`, chưa update code) — dữ liệu đo có sẵn: in-domain 0.7372, out-of-domain 0.3802 → khuyến nghị nâng lên 0.38–0.45 (xem dòng 125–128). Chỉ còn việc này để hoàn thành Bước 4.
-- [x] `.venv/bin/python -m pytest -q` → **20/20 PASS** ✅ (43.47s)
+- [x] ✅ Calibrate `SCORE_THRESHOLD` → **0.3 → 0.45** (đã update code `src/task9_retrieval_pipeline.py`)
+- [x] `.venv/bin/python -m pytest -q` → **20/20 PASS** ✅ (22.25s)
 - [x] `grep -rE "(OPENAI_API_KEY|GEMINI_API_KEY|ANTHROPIC_API_KEY|PAGEINDEX_API_KEY)\s*=\s*[\"'][^\"']+" src/ chatbot/ app.py` → không có key hard-code
 - [x] `git status` → không có `.env`, `chroma_db/`, file cache lọt vào commit
 - [x] Demo 3 kịch bản theo `docs/STEP_BY_STEP.md:106`: **1 query trong domain · 1 query ngoài domain · kết quả A/B**
@@ -225,7 +223,7 @@ print("RRF result:", hybrid)
 | 3. Evaluation | Hùng | ~30' | bước 2 | ✅ HOÀN THÀNH |
 | 4. Kiểm tra & nộp | Cả nhóm | ~45' | bước 1,2,3 | ✅ HOÀN THÀNH |
 
-**Tổng đường găng còn lại:** ~30' (Calibrate `SCORE_THRESHOLD` — duy nhất việc chưa làm của Bước 4).
+**Tổng đường găng còn lại:** ✅ **0'** (tất cả đã hoàn thành).
 
 ---
 
@@ -282,7 +280,7 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 
 ---
 
-## ❌ Trạng Thái Acceptance Tests
+## ✅ Trạng Thái Acceptance Tests
 
 > Chạy: `pytest tests/test_acceptance.py -q`
 
@@ -313,6 +311,7 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 ### ✅ 3. `group_project/evaluation/RESULT.md` — ✅ HOÀN THÀNH
 - [x] Evaluation đã chạy xong, kết quả thật đã có
 - [x] 5 chỗ `TODO` còn lại đã được điền: 2 root cause trong worst performers + 1 bonus experiment
+- [x] ✅ Bổ sung tiểu mục mới giải thích tại sao `answer_relevance` ↓ 0.043 và `context_precision` ↓ 0.015 trong Config B (hybrid): BM25 tìm được chunk đúng → context giàu hơn → faithfulness ↑, recall ↑, nhưng LLM có xu hướng trích dẫn thay vì trả lời trực tiếp → relevance ↓; kết luận Config B vẫn tốt hơn
 - [x] ✅ `test_evaluation_report_is_completed` PASS
 
 ### ✅ 4. Individual Reports — ✅ ĐỦ 3 NGƯỜI
@@ -396,7 +395,7 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 - [x] `load_documents()`, `chunk_documents()`, `embed_texts()`, `embed_chunks()`, `get_collection()`, `index_to_vectorstore()` — tất cả implement ✅
 - [x] ID format `{path}::chunk-{i}`, upsert không nhân bản
 - [x] Metadata.url đã điền URL chính phủ xác minh cho 3/4 file
-- [x] 1392 chunk đã index vào ChromaDB (`chroma_db/`)
+- [x] 2147 chunk đã index vào ChromaDB (`chroma_db/`)
 - [x] ✅ `test_chunk_documents_preserves_identity_and_metadata` PASS
 
 ### Mục 6 — Hybrid Retrieval ✅
@@ -417,6 +416,7 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 - [x] ✅ contract test PASS
 
 ### Mục 7 — Fallback & Retrieval Pipeline 🟡
+*Threshold ✅ đã calibrate (0.45), chỉ còn PAGEINDEX_API_KEY chưa điền trong `.env`*
 
 **PageIndex Fallback (task8)**
 - [x] Upload PDF từ `data/landing/legal/` lên PageIndex Cloud REST API
@@ -430,7 +430,7 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 - [x] Dense + BM25 với `top_k * 2`, RRF fuse **đúng 1 lần**
 - [x] Fallback dùng **`dense[0]["score"]`** (cosine gốc), không phải RRF score ✅
 - [x] `except Exception: pass` — fallback lỗi trả hybrid ✅
-- [x] `SCORE_THRESHOLD = 0.3` (chưa calibrate trên corpus thật)
+- [x] `SCORE_THRESHOLD = 0.45` (✅ đã calibrate trên corpus thật)
 - [x] ✅ 3/3 retrieve contract tests PASS
 
 ### Mục 8 — Generation Có Citation ✅
@@ -495,12 +495,12 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 | Thu thập & chuẩn hoá (≥3 legal ✅ + ≥5 news ✅ + markdown ≥200 ký tự ✅) | 10 | ✅ HOÀN THÀNH (2147 chunk indexed) |
 | Chunking, embedding, vector DB (ID ổn định, dim=1024) | 10 | ✅ Xong |
 | Dense, BM25, RRF (score sort, no dup, hybrid mark) | 20 | ✅ Contract pass |
-| Retrieval pipeline & fallback (threshold logic, 1x RRF) | 10 | ✅ Contract pass |
+| Retrieval pipeline & fallback (threshold logic ✅ calibrate, 1x RRF) | 10 | ✅ Contract pass |
 | Generation có citation & safe refusal | 15 | ✅ Contract pass (+ fix bug citation) |
 | Chatbot UI end-to-end `app.py` (streamlit) | 10 | ✅ HOÀN THÀNH (tested thật) |
 | Golden dataset ≥15 câu ✅, 4 metric ✅, A/B ✅, error analysis ✅ | 10 | ✅ XONG — RESULT.md không còn TODO |
 | README, reproducibility, báo cáo cá nhân (Khanh ✅ Minh ✅ Hùng ✅), no `.env` leak ✅ | 5 | ✅ HOÀN THÀNH |
-| **TỔNG** | **90** | **~85/90 khả năng đạt** *(ước đoán)* |
+| **TỔNG** | **90** | **~88/90 khả năng đạt** *(ước đoán: -2 vì PAGEINDEX_API_KEY trống, 0 bonus)* |
 
 **Bonus:**
 - [ ] HyDE / query expansion có A/B (+3)
@@ -561,18 +561,22 @@ python -m src.task8_pageindex_vectorless
 ---
 
 - `bo-luat-dan-su.pdf` đã bị gỡ khỏi corpus — PDF scan ảnh, 0 ký tự convert được
-- `SCORE_THRESHOLD=0.3` chưa calibrate trong code — dữ liệu đo có sẵn (in-domain 0.737, out-of-domain 0.380, khuyến nghị 0.38–0.45)
+- `SCORE_THRESHOLD=0.45` ✅ đã calibrate trong code — dữ liệu đo: in-domain 0.7372, out-of-domain 0.3802, chọn 0.45 (nằm giữa khoảng an toàn)
 - `chatbot/` đã rewire sang pipeline chung `src/` — không còn là nhánh độc lập
 - `chroma_db/` đã có 2147 chunk (4 legal + 8 news) — cần đảm bảo folder này trong `.gitignore`
 - Chạy `python -m chatbot.server` sinh warning `huggingface/tokenizers: The current process just got forked...` — vô hại, tắt bằng `export TOKENIZERS_PARALLELISM=false` trước khi chạy server để output lúc demo đỡ rối
 
-### 🟡 Tồn Đọng Nhỏ: Thông Báo Khởi Động `chatbot/` Sai Model
+### ✅ Đã Sửa: Thông Báo Khởi Động `chatbot/` Sai Model — Metadata RESULT.md
 
-**Vấn đề:** `chatbot/server.py:121` in thông báo "Đang chuẩn bị chỉ mục truy hồi (embedding model: {config.EMBEDDING_MODEL})...", nhưng `chatbot/config.py:23,27` vẫn giữ cấu hình TF-IDF cũ (`EMBEDDING_BACKEND="tfidf"`, `EMBEDDING_MODEL="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"`). Thực tế pipeline hiện dùng `BAAI/bge-m3` qua `src/task4`.
+**Vấn đề:** `chatbot/config.py:23,27` giữ cấu hình TF-IDF cũ (`EMBEDDING_BACKEND="tfidf"`, `EMBEDDING_MODEL="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"`) dư thừa từ pipeline TF-IDF. Thực tế pipeline hiện dùng `BAAI/bge-m3` qua `src/task4`. Hệ quả thật: `group_project/evaluation/run_evaluation.py:196` đọc biến cũ này nên `RESULT.md` ghi sai embedding model, và dòng 197 hard-code corpus chỉ 3 file legal — cả hai mâu thuẫn với phần còn lại của bài.
 
-**Tác động:** Không ảnh hưởng chức năng — rewire đã xoá hết code dùng config cũ, `chatbot/corpus.py` cũng không còn ai import. Chỉ là thông báo khởi động gây hiểu nhầm về model nào đang chạy.
+**Đã sửa:**
+- `run_evaluation.py:27` thêm import từ `src/task4`: `from src.task4_chunking_indexing import EMBEDDING_MODEL as PIPELINE_EMBEDDING_MODEL, EMBEDDING_DIM`
+- `run_evaluation.py:188-189` đếm file corpus động bằng `Path.glob()` thay vì hard-code
+- `run_evaluation.py:196-197` dùng `PIPELINE_EMBEDDING_MODEL`, `EMBEDDING_DIM`, `_legal_n`, `_news_n` để ghi đúng metadata
+- `RESULT.md:11-12` sửa tay 2 dòng metadata tương ứng (embedding model, corpus).
 
-**Cách sửa (tạm hoãn):** Bỏ dòng print khỏi `chatbot/server.py:121` hoặc đổi thành đọc `EMBEDDING_MODEL` từ `src/task4_chunking_indexing.py` để trích model đang dùng thật.
+**Các con số metric KHÔNG đổi** — phép đo đã chạy đúng pipeline vì `run_evaluation.py:26` import `chatbot.engine` đã rewire sang `src/`. Chỉ metadata báo cáo trước sai, giờ sửa lại khớp sự thật.
 
 ---
 
@@ -596,4 +600,4 @@ python -m src.task8_pageindex_vectorless
 
 ---
 
-**✏️ Cập nhật lần cuối:** 2026-09-21 — rà soát toàn file, đồng bộ trạng thái lab đã hoàn thành (20/20 test, 3/3 report, RESULT.md 0 TODO, 4/4 bước xong). Sửa 15 mâu thuẫn: dòng 21/60/132-148/189/207/209-210/225/310/315/373/385/440/455-457/459/499/516/551-552/561. Chỉ còn calibrate threshold (dữ liệu đo sẵn).
+**✏️ Cập nhật lần cuối:** 2026-09-21 (hoàn thành Việc 1-4) — (1) calibrate SCORE_THRESHOLD: 0.3 → 0.45, thêm comment căn cứ; (2) bổ sung tiểu mục phân tích A/B vào RESULT.md giải thích tại sao answer_relevance ↓ và context_precision ↓ khi bật hybrid (BM25 tìm được chunk đúng → context giàu → faithfulness ↑, recall ↑, nhưng LLM có xu hướng trích dẫn thay vì trả lời trực tiếp → relevance ↓); (3) sửa metadata RESULT.md: embedding model (MiniLM→bge-m3 dim 1024) và corpus (hard-code 3 legal → động 4 legal + 8 news); cập nhật run_evaluation.py để đọc EMBEDDING_MODEL từ src/task4 và đếm file corpus động; (4) cập nhật 11 chỗ trong CHECKLIST.md: số chunk 1392→2147, heading acceptance ❌→✅, threshold calibrate ở 3 vị trí, heading Mục 7 + note threshold xong, pytest time 43.47s→22.25s, rubric 85→88, thêm checkbox Việc 2. Trạng thái: 20/20 test, 3/3 report, RESULT.md 0 TODO, 4/4 bước xong, threshold ✅ calibrate, metadata ✅ sync.

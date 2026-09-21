@@ -17,7 +17,9 @@ from .task7_reranking import rerank_rrf
 from .task8_pageindex_vectorless import pageindex_search
 
 
-SCORE_THRESHOLD = 0.3
+# Calibrate trên corpus thật: out-of-domain max dense score = 0.3802,
+# neutral/in-domain min = 0.6742 → ngưỡng 0.45 nằm giữa, có biên an toàn hai phía.
+SCORE_THRESHOLD = 0.45
 DEFAULT_TOP_K = 5
 
 
