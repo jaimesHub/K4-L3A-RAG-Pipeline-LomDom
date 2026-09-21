@@ -169,7 +169,7 @@ print("RRF result:", hybrid)
 
 - [x] ⚠️ **Quyết định trước khi chạy:** Xác nhận `run_evaluation.py` sẽ đo đúng pipeline `src/` — **đã giải quyết gián tiếp qua rewire `chatbot/engine.py`**. `run_evaluation.py:26` import `chatbot.engine.generate_with_citation()`, mà hàm đó giờ **chính là** `src/task9` + `src/task10`, nên không cần sửa `run_evaluation.py`.
 - [x] **Khuyến nghị:** cấp hành động — không cần. Phép A/B `use_hybrid=False/True` map thẳng vào `retrieve(use_reranking=...)` bên trong `chatbot/engine.generate_with_citation()`, tức so dense-only với hybrid+RRF trên cùng cấu hình, đúng yêu cầu `docs/STEP_BY_STEP.md:91`.
-- [ ] Kiểm `/api/chat` chạy thật một lần trước khi chạy evaluation — xác nhận `sources[].title` và `.source` có giá trị thật (đây là chỗ schema mapping mới có thể vỡ lúc runtime). Lệnh:
+- [x] Kiểm `/api/chat` chạy thật một lần trước khi chạy evaluation — xác nhận `sources[].title` và `.source` có giá trị thật (đây là chỗ schema mapping mới có thể vỡ lúc runtime). Lệnh:
   ```bash
   .venv/bin/python -m chatbot.server &
   sleep 3
@@ -178,6 +178,22 @@ print("RRF result:", hybrid)
     -d '{"question":"Điều kiện chuyển nhượng hợp đồng mua bán căn hộ chung cư là gì?","top_k":3,"use_hybrid":true}' | head -40
   kill %1
   ```
+
+  **✅ Kết quả chạy thật (2026-09-21):**
+  - `/api/health` → HTTP 200: `{"status": "ok", "chunks": 2147, "collection": "rag_documents"}` ✅
+  - `/api/chat` → HTTP 200 ✅, `sources[].title` & `.source` có **giá trị thật** ✅
+    - Ví dụ: `mau-so-1a.md`, `article_b57c988c.md` (news) đều có trong kết quả
+  - News chunk xuất hiện trong retrieval (`article_b57c988c.md`) → xác nhận 2147 chunk đều retrievable ✅
+  - `retrieval_method: "hybrid"` → **alias key đúng**, khớp JS ở `chatbot/static/index.html:234-235` ✅
+  - **LLM 503 UNAVAILABLE** (Gemini quá tải) → **không crash**, HTTP 200 kèm thông điệp + sources → đúng `MODULE_CONTRACTS.md:70` ✅
+  - ⚠️ **Chưa kiểm được:** answer có citation `[Document N]` map đúng sources hay không (LLM chưa sinh answer thành công lần nào)
+- [x] Thử lại `/api/chat` khi Gemini bớt tải — xác minh answer có citation `[Document N]` map đúng về `sources` ✅ **Đã xác minh (2026-09-21)**
+  - Đổi sang `LLM_PROVIDER=openai` / `LLM_MODEL=gpt-4o-mini` → LLM sinh answer thành công
+  - Answer có citation `(Document 1)`, nội dung khớp chính xác `sources[0]` (`mau-so-1a.md`)
+  - **Xác minh phép toán:** `top_k=3` → `reorder_for_llm` cho `[c0,c2,c1]`, `sources` trả về cùng thứ tự → `[Document 1]` = `sources[0]` ✅
+  - **Kết luận:** fix bug citation (`src/task10_generation.py:146`) đã được xác minh **end-to-end trên đường chạy thật**, không chỉ qua test tổng hợp
+  - News chunk `article_b57c988c.md` trong top-3 ✅
+  - Answer grounded, không bịa ✅
 - [ ] Chạy 4 metric RAGAS: `faithfulness`, `answer_relevance`, `context_recall`, `context_precision` trên 20 câu golden dataset
 - [ ] Chạy A/B: dense-only (`use_reranking=False`) vs hybrid+RRF (`use_reranking=True`)
 - [ ] Điền `group_project/evaluation/RESULT.md`: bảng A/B 4 metric, phân tích worst cases, khuyến nghị cải thiện
@@ -203,7 +219,7 @@ print("RRF result:", hybrid)
 |---|---|---|---|---|
 | ✅ 1. Crawl news | Khanh | ~30' | — | **HOÀN THÀNH** |
 | ✅ 2. Nối `app.py` | Hùng | ~30-45' | — | **HOÀN THÀNH** |
-| 3. Evaluation | Hùng | ~30' | bước 2 | ❌ Chưa làm |
+| 3. Evaluation | Hùng | ~30' | bước 2 | 🟡 Đang làm (4/9) |
 | 4. Kiểm tra & nộp | Cả nhóm | ~45' | bước 1,2,3 | ❌ Chưa làm |
 
 **Tổng đường găng còn lại:** khoảng **1 giờ 15'** (bước 3 ~30' + bước 4 ~45').
@@ -545,6 +561,17 @@ python -m src.task8_pageindex_vectorless
 - `SCORE_THRESHOLD=0.3` chưa calibrate trên corpus thật — chạy query in-domain và out-of-domain để đo
 - `chatbot/` đã rewire sang pipeline chung `src/` — không còn là nhánh độc lập
 - `chroma_db/` đã có 2147 chunk (4 legal + 8 news) — cần đảm bảo folder này trong `.gitignore`
+- Chạy `python -m chatbot.server` sinh warning `huggingface/tokenizers: The current process just got forked...` — vô hại, tắt bằng `export TOKENIZERS_PARALLELISM=false` trước khi chạy server để output lúc demo đỡ rối
+
+### 🟡 Tồn Đọng Nhỏ: Thông Báo Khởi Động `chatbot/` Sai Model
+
+**Vấn đề:** `chatbot/server.py:121` in thông báo "Đang chuẩn bị chỉ mục truy hồi (embedding model: {config.EMBEDDING_MODEL})...", nhưng `chatbot/config.py:23,27` vẫn giữ cấu hình TF-IDF cũ (`EMBEDDING_BACKEND="tfidf"`, `EMBEDDING_MODEL="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"`). Thực tế pipeline hiện dùng `BAAI/bge-m3` qua `src/task4`.
+
+**Tác động:** Không ảnh hưởng chức năng — rewire đã xoá hết code dùng config cũ, `chatbot/corpus.py` cũng không còn ai import. Chỉ là thông báo khởi động gây hiểu nhầm về model nào đang chạy.
+
+**Cách sửa (tạm hoãn):** Bỏ dòng print khỏi `chatbot/server.py:121` hoặc đổi thành đọc `EMBEDDING_MODEL` từ `src/task4_chunking_indexing.py` để trích model đang dùng thật.
+
+---
 
 ### ✅ Đã Sửa: Citation Lệch Thứ Tự Nguồn
 
@@ -562,6 +589,8 @@ python -m src.task8_pageindex_vectorless
 
 **Ownership:** đây là code của Minh (mục 6-8), fix được ghi nhận thuộc phần việc của Minh.
 
+**End-to-End Verification (2026-09-21):** Đã xác minh thêm qua `/api/chat` thật với `gpt-4o-mini` — answer trích `(Document 1)` khớp đúng `sources[0]`, với `top_k=3` và `reordered=[c0,c2,c1]`. Fix hoạt động chính xác không chỉ trên unit test mà trên đường chạy thật.
+
 ---
 
-**✏️ Cập nhật lần cuối:** 2026-09-21 — đồng bộ trạng thái bước 1-2 hoàn thành (news ✅ 8/8, app.py ✅ nối xong), ghi nhận fix bug citation, cập nhật trạng thái pytest (1 FAIL); bước 1 và 2 hoàn thành (2147 chunk đã index, streamlit đã chạy thật); rewire chatbot/ sang pipeline src/ (engine 260→122 dòng)
+**✏️ Cập nhật lần cuối:** 2026-09-21 — đồng bộ trạng thái bước 1-2 hoàn thành (news ✅ 8/8, app.py ✅ nối xong), ghi nhận fix bug citation, cập nhật trạng thái pytest (1 FAIL); bước 1 và 2 hoàn thành (2147 chunk đã index, streamlit đã chạy thật); rewire chatbot/ sang pipeline src/ (engine 260→122 dòng); xác minh /api/chat sau rewire (schema OK, news retrievable, LLM 503 nhưng không crash); xác minh citation map đúng sources qua /api/chat thật (gpt-4o-mini)
