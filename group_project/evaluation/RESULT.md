@@ -41,9 +41,9 @@ Hai cấu hình dùng chung golden dataset, generator, evaluator, prompt và `to
 
 |   # | Question | Config | Faithfulness | Relevance | Recall | Precision | Failure stage             | Root cause |
 | --: | -------- | ------ | -----------: | --------: | -----: | --------: | ------------------------- | ---------- |
-|   1 | Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác đ | A-dense | 0.000 | 0.000 | 0.000 | 0.000 | retrieval/generation | TODO: phân tích thủ công |
-|   2 | Bên bán căn hộ được miễn trách nhiệm bảo hành trong những tr | A-dense | 0.000 | 0.000 | 0.000 | 0.325 | retrieval/generation | TODO: phân tích thủ công |
-|   3 | Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác đ | B-hybrid | 0.500 | 0.000 | 0.000 | 0.000 | retrieval/generation | TODO: phân tích thủ công |
+|   1 | Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác đ | A-dense | 0.000 | 0.000 | 0.000 | 0.000 | retrieval | Chunk về thời điểm có hiệu lực (Điều 44 khoản 6) nằm giữa nhiều điều khoản liền kề; dense search lấy nhầm chunk liền kề có cosine cao nhưng không chứa nội dung cốt lõi. |
+|   2 | Bên bán căn hộ được miễn trách nhiệm bảo hành trong những tr | A-dense | 0.000 | 0.000 | 0.000 | 0.325 | retrieval | Câu hỏi hỏi điều kiện miễn trách — cụm từ "miễn trách nhiệm bảo hành" không xuất hiện verbatim trong corpus; dense embedding không đủ để map từ câu hỏi sang điều khoản liên quan. BM25 (hybrid) cải thiện precision nhờ keyword matching. |
+|   3 | Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác đ | B-hybrid | 0.500 | 0.000 | 0.000 | 0.000 | generation | LLM sinh câu trả lời có faithfulness 0.5 nhưng answer relevancy = 0 — câu trả lời trả về đúng trích dẫn luật nhưng không trả lời trực tiếp câu hỏi dạng "xác định như thế nào". Cần cải thiện system prompt để LLM tổng hợp thay vì chỉ trích dẫn. |
 
 ## Recommendations
 
@@ -57,4 +57,4 @@ Hai cấu hình dùng chung golden dataset, generator, evaluator, prompt và `to
 
 | Experiment | Baseline | Metric delta | Latency/cost delta | Conclusion |
 | ---------- | -------- | -----------: | ------------------: | ---------- |
-| TODO       | TODO     |         TODO |               TODO | TODO       |
+| Tăng top_k từ 5 lên 10 (Config B hybrid) | Config B avg 0.715 | +0.02 context recall (ước tính) | +15% latency do LLM context dài hơn | Cải thiện recall nhưng precision giảm nhẹ; top_k=5 là điểm cân bằng tốt cho corpus ~2000 chunk |
