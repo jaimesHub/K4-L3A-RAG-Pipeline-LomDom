@@ -203,15 +203,15 @@ print("RRF result:", hybrid)
 ### Bước 4 — Kiểm tra & nộp bài (Mục 10)
 **Cả nhóm · ~45' · CẦN bước 1-3 xong**
 
-- [ ] Khanh: tạo `reports/{mssv}-{ten}.md` từ template `group_project/ịndividual/INDIVIDUAL_REPORT.md` — phần mục 3→5
+- [x] Khanh ✅: tạo `reports/{mssv}-{ten}.md` từ template `group_project/ịndividual/INDIVIDUAL_REPORT.md` — phần mục 3→5
 - [x] Minh: ✅ đã nộp `reports/minhnn-individual.md` — phần mục 6→8 (task5–10, fix bug citation, CHECKLIST)
 - [x] Hùng: ✅ đã nộp `reports/2A202602942-HUNGLM.md`
 - [ ] Calibrate `SCORE_THRESHOLD` (hiện `0.3`, chưa đo trên corpus thật): chạy vài query in-domain và out-of-domain, xem `dense[0]["score"]` thực tế rơi vào khoảng nào rồi chỉnh (`README.md:63` nhấn không có con số đúng cho mọi corpus)
 - [x] `.venv/bin/python -m pytest -q` → **20/20 PASS** ✅ (43.47s)
-- [ ] `grep -rE "(OPENAI_API_KEY|GEMINI_API_KEY|ANTHROPIC_API_KEY|PAGEINDEX_API_KEY)\s*=\s*[\"'][^\"']+" src/ chatbot/ app.py` → không có key hard-code
-- [ ] `git status` → không có `.env`, `chroma_db/`, file cache lọt vào commit
-- [ ] Demo 3 kịch bản theo `docs/STEP_BY_STEP.md:106`: **1 query trong domain · 1 query ngoài domain · kết quả A/B**
-- [ ] Push repo
+- [x] `grep -rE "(OPENAI_API_KEY|GEMINI_API_KEY|ANTHROPIC_API_KEY|PAGEINDEX_API_KEY)\s*=\s*[\"'][^\"']+" src/ chatbot/ app.py` → không có key hard-code
+- [x] `git status` → không có `.env`, `chroma_db/`, file cache lọt vào commit
+- [x] Demo 3 kịch bản theo `docs/STEP_BY_STEP.md:106`: **1 query trong domain · 1 query ngoài domain · kết quả A/B**
+- [x] Push repo
 
 **Đường Găng (Critical Path)**
 
@@ -464,13 +464,13 @@ Máy dev là **macOS x86_64 (Intel)** — PyTorch **ngừng build wheel macOS In
 - [x] `pytest -q` — **20/20 PASS** ✅
 
 **Individual Reports**
-- [ ] Khanh — chưa tạo file report (mục 3→5)
-- [x] Minh ✅ `reports/minhnn-individual.md`
+- [x] Khánh ✅ `reports/2A202603013-KHANHDQ.md`
+- [x] Minh ✅ `reports/2A202602653-MINHNN.md`
 - [x] Hùng ✅ `reports/2A202602942-HUNGLM.md`
 
 **Final Checks**
-- [ ] Kiểm tra không leak `.env` / API key / chroma_db cache trong repo
-- [ ] Demo: 1 query trong domain + 1 query ngoài domain + A/B comparison
+- [x] Kiểm tra không leak `.env` / API key / chroma_db cache trong repo
+- [x] Demo: 1 query trong domain + 1 query ngoài domain + A/B comparison
 
 ---
 
