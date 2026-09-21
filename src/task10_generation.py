@@ -143,7 +143,7 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
 
     return {
         "answer": answer,
-        "sources": chunks,
+        "sources": reordered,  # format_context() đánh số [Document N] theo reordered, nên sources phải theo thứ tự đó để citation map đúng
         "retrieval_source": retrieval_source,
     }
 

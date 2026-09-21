@@ -1,0 +1,766 @@
+{
+  "config_a_dense": [
+    {
+      "id": "q01",
+      "question": "Hợp đồng mua bán căn hộ chung cư giữa hai cá nhân có bắt buộc phải công chứng hoặc chứng thực không?",
+      "answer": "Hợp đồng mua bán căn hộ chung cư giữa hai cá nhân không bắt buộc phải công chứng hoặc chứng thực, trừ khi hợp đồng đó thuộc các trường hợp cụ thể theo quy định của pháp luật. Theo tài liệu, \"Việc công chứng, chứng thực hợp đồng do các bên thỏa thuận\" (Document 4), điều này cho thấy có những hợp đồng không cần thực hiện công chứng hoặc chứng thực.",
+      "contexts": [
+        "Việc công chứng, chứng thực hợp đồng do các bên thỏa thuận; trừ hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng và hợp đồng chuyển nhượng quyền sử dụng đất mà các bên tham gia giao dịch là tổ chức, cá nhân quy định tại khoản 2 Điều 10 của Luật này thì phải công chứng hoặc chứng thực\".",
+        "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n1 Ghi các căn cứ liên quan đến việc mua bán, cho Bên mua căn hộ chung cư. Trường hợp Nhà nước có sửa đổi, thay thế các văn bản pháp luật ghi tại phần căn cứ của hợp đồng này thì bên bán phải ghi lại theo số, tên văn bản mới đã thay đổi.\n\n2Ghi tên doanh nghiệp, cá nhân bán, cho Bên mua căn hộ; nếu là cá nhân thì không cần có các nội dung về Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đăng ký đầu tư, người đại diện pháp luật của doanh nghiệp.",
+        "3 Nếu là tổ chức thì ghi các thông tin về tổ chức; nếu là cá nhân thì ghi các thông tin về cá nhân, nếu có nhiều người mua là cá nhân cùng đứng tên trong hợp đồng thì tại mục này phải ghi đầy đủ thông tin về những người cùng mua căn hộ chung cư; không cần có các nội dung về Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đăng ký đầu tư, người đại diện pháp luật của doanh nghiệp.\n\n4 Nếu là tổ chức thì ghi số Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký đầu tư.",
+        "Với những quy định như vậy thì cần tiến hành rà soát, nghiên cứu kỹ đối với quy định về công chứng, chứng thực hợp đồng trong kinh doanh BĐS, vì quy định như Điều 45, \"Việc công chứng, chứng thực hợp đồng do các bên thỏa thuận\" có thể hiểu là có những hợp đồng kinh doanh BĐS không cần thực hiện công chứng, chứng thực",
+        "- Điều kiện quy định tại điểm b và điểm c khoản này không áp dụng đối với trường hợp mua bán, thuê mua nhà ở hình thành trong tương lai.\n\n![hợp đồng mua bán nhà gắn liền với đất](data:image/gif;base64... \"hợp đồng mua bán nhà gắn liền với đất\")***Hợp đồng mua bán nhà phải công chứng hoặc chứng thực (Ảnh minh họa)***\n\n## **3.Hợp đồng chuyển nhượng phải công chứng hoặc chứng thực**"
+      ],
+      "ground_truth": "Có. Theo khoản 5 Điều 44 Luật Kinh doanh bất động sản, hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng mà các bên tham gia giao dịch là cá nhân thì phải công chứng hoặc chứng thực.",
+      "reference_context": "Hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng mà các bên tham gia giao dịch là cá nhân phải công chứng hoặc chứng thực.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.45739864912024286,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q02",
+      "question": "Nếu ít nhất một bên trong hợp đồng mua bán căn hộ là doanh nghiệp kinh doanh bất động sản thì việc công chứng hợp đồng có bắt buộc không?",
+      "answer": "Nếu ít nhất một bên trong hợp đồng mua bán căn hộ là doanh nghiệp kinh doanh bất động sản, thì việc công chứng hợp đồng là bắt buộc. Theo quy định tại khoản 2 Điều 10 của Luật Kinh doanh bất động sản, hợp đồng mua bán, thuê mua nhà ở và hợp đồng chuyển nhượng quyền sử dụng đất phải được công chứng hoặc chứng thực khi các bên tham gia giao dịch là tổ chức, cá nhân. (Document 2)",
+      "contexts": [
+        "09/05/2023\n\n19:12\n\n!['Tấm khiên' bảo vệ người dân và doanh nghiệp trong kinh doanh bất động sản - Ảnh 1.](https://bcp.cdnchinhphu.vn/thumb_w/777/334894974524682240/2023/5/9/ts-tran-minh-son-108-1683630621627376504728.jpg)\n\nTS. Trần Minh Sơn (đứng): Công chứng đóng vai trò là thiết chế quản lý các hợp đồng, giao dịch về BĐS, bảo đảm tính an toàn cho các giao dịch - Ảnh: VGP/LS\n\n### **Có nên quy định công chứng hợp đồng kinh doanh BĐS ‘tự nguyện’ hay không?**",
+        "Việc công chứng, chứng thực hợp đồng do các bên thỏa thuận; trừ hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng và hợp đồng chuyển nhượng quyền sử dụng đất mà các bên tham gia giao dịch là tổ chức, cá nhân quy định tại khoản 2 Điều 10 của Luật này thì phải công chứng hoặc chứng thực\".",
+        "[![Không công chứng hợp đồng kinh doanh BĐS: Mừng ít, lo nhiều](https://bcp.cdnchinhphu.vn/thumb_w/777/334894974524682240/2023/2/17/5j4a0554-167663403044552761451-0-0-1250-2000-crop-1676634296313352996492.jpg)](/khong-cong-chung-hop-dong-mua-ban-bat-dong-san-mung-it-lo-nhieu-102230217185029439.htm)\n* Tham khảo thêm",
+        "Vì vậy, dự thảo Luật Kinh doanh bất động sản (khoản 3, Điều 45) nên quy định \"hợp đồng kinh doanh BĐS, hợp đồng kinh doanh dịch vụ BĐS phải lập thành văn bản. Việc công chứng, chứng thực hợp đồng đối với hợp đồng kinh doanh BĐS được thực hiện theo pháp luật về công chứng\".",
+        "Với những quy định như vậy thì cần tiến hành rà soát, nghiên cứu kỹ đối với quy định về công chứng, chứng thực hợp đồng trong kinh doanh BĐS, vì quy định như Điều 45, \"Việc công chứng, chứng thực hợp đồng do các bên thỏa thuận\" có thể hiểu là có những hợp đồng kinh doanh BĐS không cần thực hiện công chứng, chứng thực"
+      ],
+      "ground_truth": "Không bắt buộc, chỉ công chứng hoặc chứng thực theo yêu cầu của các bên. Theo khoản 4 Điều 44 Luật Kinh doanh bất động sản, hợp đồng kinh doanh bất động sản mà ít nhất một bên tham gia là doanh nghiệp kinh doanh bất động sản được công chứng hoặc chứng thực theo yêu cầu của các bên, khác với trường hợp cả hai bên đều là cá nhân (bắt buộc công chứng/chứng thực).",
+      "reference_context": "Hợp đồng kinh doanh bất động sản, hợp đồng kinh doanh dịch vụ bất động sản mà ít nhất một bên tham gia giao dịch là doanh nghiệp kinh doanh bất động sản được công chứng hoặc chứng thực theo yêu cầu của các bên.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.5906911890606591,
+      "context_recall": 0.75,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q03",
+      "question": "Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác định như thế nào?",
+      "answer": "Từ các tài liệu cung cấp, không có thông tin cụ thể nào về thời điểm có hiệu lực của hợp đồng mua bán căn hộ. Do đó, tôi không thể xác minh câu hỏi này.",
+      "contexts": [
+        "![Mua bán căn hộ hình thành trong tương lai sẽ ràng buộc nhiều quy định khi Luật Kinh doanh bất động sản 2023 có hiệu lực vào 1-8 tới đây - Ảnh: NGỌC HIỂN](https://cdn.tuoitre.vn/thumb_w/730/471584752817336320/2024/7/21/base64-1721558097451259707143.jpeg)\n\nMua bán căn hộ hình thành trong tương lai sẽ ràng buộc nhiều quy định khi Luật Kinh doanh bất động sản 2023 có hiệu lực vào 1-8 tới đây - Ảnh: NGỌC HIỂN\n\n## **Doanh nghiệp bất động sản chỉ được thu tiền đặt cọc không quá 5%**",
+        "c) Số tiền mua căn hộ theo hợp đồng này là hợp pháp, không có tranh chấp với bên thứ ba. Bên bán sẽ không phải chịu trách nhiệm đối với việc tranh chấp khoản tiền mà Bên mua đã thanh toán cho Bên bán theo hợp đồng này. Trong trường hợp có tranh chấp về khoản tiền mua căn hộ này thì hợp đồng này vẫn có hiệu lực đối với hai bên;\n\nd) Cung cấp các giấy tờ cần thiết khi Bên bán yêu cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên mua.",
+        "Trong thời hạn ………… ngày, kể từ ngày nhận được thông báo của Bên bán mà Bên mua không nộp đầy đủ các giấy tờ theo thông báo mà không có lý do chính đáng thì coi như Bên mua tự nguyện đi làm thủ tục cấp Giấy chứng nhận. Khi Bên mua tự nguyện làm thủ tục đề nghị cấp Giấy chứng nhận thì Bên bán phải hỗ trợ và cung cấp đầy đủ hồ sơ pháp lý về căn hộ bán cho Bên mua;",
+        "hoặc không kỳ hạn) do Ngân hàng ………… công bố tại thời điểm thanh toán trên tổng số tiền mà Bên mua đã thanh toán cho Bên bán và được tính từ ngày phải bàn giao theo thỏa thuận đến ngày Bên bán bàn giao căn hộ thực tế cho Bên mua.*",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa"
+      ],
+      "ground_truth": "Thời điểm có hiệu lực của hợp đồng là thời điểm bên sau cùng ký vào hợp đồng hoặc bằng hình thức chấp nhận khác được thể hiện trên hợp đồng, trừ khi các bên có thỏa thuận khác. Nếu hợp đồng có công chứng hoặc chứng thực thì thời điểm có hiệu lực là thời điểm văn bản công chứng, chứng thực có hiệu lực theo pháp luật về công chứng, chứng thực.",
+      "reference_context": "Thời điểm có hiệu lực của hợp đồng là thời điểm bên sau cùng ký vào hợp đồng hoặc bằng hình thức chấp nhận khác được thể hiện trên hợp đồng, trừ trường hợp các bên có thỏa thuận khác. Trường hợp hợp đồng có công chứng hoặc chứng thực thì thời điểm có hiệu lực của hợp đồng là thời điểm văn bản công chứng, chứng thực có hiệu lực theo quy định của pháp luật về công chứng, chứng thực.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "q04",
+      "question": "Khi mua căn hộ chung cư hình thành trong tương lai, lần thanh toán đầu tiên tối đa được thu bao nhiêu phần trăm giá trị hợp đồng?",
+      "answer": "Khi mua căn hộ chung cư hình thành trong tương lai, lần thanh toán đầu tiên tối đa được thu không quá 30% giá trị hợp đồng, bao gồm cả tiền đặt cọc (Document 1, Document 3).",
+      "contexts": [
+        "Luật mới quy định rõ, việc thanh toán trong mua bán nhà ở, công trình xây dựng hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng ***bao gồm cả tiền đặt cọc*** (hiện nay chỉ quy định lần đầu thanh toán không quá 30% giá trị hợp đồng).\n\nĐồng thời, giảm tỷ lệ thanh toán khi thuê mua nhà ở hình thành trong tương lai ***xuống còn 50% thay vì 70% như quy định trước đây***. Cụ thể:",
+        "*Việc thanh toán trong thuê mua nhà ở hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng đến khi bàn giao nhà ở cho bên thuê mua nhưng tổng số tiền thanh toán trước cho bên cho thuê mua không quá 50% giá trị hợp đồng thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng",
+        "Trường hợp bên bán là tổ chức kinh tế có vốn đầu tư nước ngoài quy định tại khoản 4 điều 10 của luật này thì tổng số không quá 50% giá trị hợp đồng.\n\nBên cạnh đó, việc thanh toán trong thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc.",
+        "Việc mua bán/thuê mua nhà ở hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 Luật Kinh doanh bất động sản 2023 *(Việc thanh toán trong mua bán nhà ở hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh"
+      ],
+      "ground_truth": "Lần thanh toán đầu tiên không được quá 30% giá trị hợp đồng, tính cả tiền đặt cọc.",
+      "reference_context": "Việc thanh toán trong mua bán nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6790360644661143,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q05",
+      "question": "Trước khi bên mua được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản, bên bán căn hộ hình thành trong tương lai được thu tối đa bao nhiêu phần trăm giá trị hợp đồng?",
+      "answer": "Bên bán căn hộ hình thành trong tương lai được thu tối đa 95% giá trị hợp đồng trước khi bên mua được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản (Document 1, Document 2, Document 4).",
+      "contexts": [
+        "Ngoài ra, luật quy định nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng;\n\nGiá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai cho bên mua, thuê mua.",
+        "*Nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng; giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai cho bên mua, thuê mua**)**.*",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh",
+        "3. Nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng\nđất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì\nbên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng; giá trị còn lại\ncủa hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy\nchứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy\nđịnh của pháp luật về đất đai cho bên mua, thuê mua.",
+        ". Nếu bên mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán không được thu quá 95% giá trị hợp đồng; giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai cho bên mua).*"
+      ],
+      "ground_truth": "Bên bán không được thu quá 95% giá trị hợp đồng nếu bên mua chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. Phần giá trị còn lại chỉ được thanh toán sau khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận cho bên mua.",
+      "reference_context": "Nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng; giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5185105485859999,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q06",
+      "question": "Chủ đầu tư bán căn hộ chung cư hình thành trong tương lai có bắt buộc phải có bảo lãnh ngân hàng không?",
+      "answer": "Có, chủ đầu tư bán căn hộ chung cư hình thành trong tương lai bắt buộc phải có bảo lãnh ngân hàng. Theo quy định, trước khi bán hoặc cho thuê mua nhà ở hình thành trong tương lai, chủ đầu tư phải được ngân hàng thương mại trong nước hoặc chi nhánh ngân hàng nước ngoài chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của mình đối với bên mua, thuê mua nhà ở (Document 1).",
+      "contexts": [
+        "1. Chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành\ntrong tương lai phải được ngân hàng thương mại trong nước, chi nhánh ngân hàng\nnước ngoài  đang hoạt động hợp pháp tại Việt Nam chấp thuận cấp bảo lãnh cho\nnghĩa vụ tài chính của chủ đầu tư đối với bên mua, thuê mua nhà ở khi chủ đầu tư\nkhông bàn giao nhà ở theo cam kết trong hợp đồng mua bán, thuê mua nhà ở hình\nthành trong tương lai (sau đây gọi chung là ngân hàng bảo lãnh).",
+        "7. Hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai đã được ngân\nhàng bảo lãnh phát hành chứng thư bảo lãnh nghĩa vụ tài chính của chủ đầu tư đối\nvới khách hàng trước ngày Luật này có hiệu lực thi hành thì không bắt buộc phải\nthực hiện việc bảo lãnh theo quy định của Luật này.\n\n\fCÔNG BÁO/Số 43 + 44/Ngày 08-01-2024\n\n89",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "Căn cứ vào thỏa thuận cấp bảo lãnh đã ký, ngân hàng bảo lãnh gửi chủ đầu tư\ndự án bất động sản văn bản cam kết khẳng định sẽ phát hành thư bảo lãnh cho tất\ncả  bên  mua,  thuê  mua  nhà  ở  thuộc  dự  án  được  chấp  thuận  cấp  bảo  lãnh  của  chủ\nđầu tư. Chủ đầu tư có trách nhiệm gửi bản sao văn bản cam kết này cho bên mua,\nthuê mua khi ký kết hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai.",
+        "Điều 26 quy định về bảo lãnh trong bán, cho thuê mua nhà ở hình thành trong tương lai, trong đó bắt buộc chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành trong tương lai phải được ngân hàng thương mại trong nước, chi nhánh ngân hàng nước ngoài đang hoạt động hợp pháp tại Việt Nam chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với bên mua, thuê mua nhà ở khi chủ đầu tư không bàn giao nhà ở theo cam kết trong hợp đồng mua bán, thuê mua nhà ở hình thành"
+      ],
+      "ground_truth": "Về nguyên tắc có: trước khi bán nhà ở hình thành trong tương lai, chủ đầu tư phải được ngân hàng thương mại chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của mình đối với bên mua trong trường hợp không bàn giao nhà đúng cam kết. Tuy nhiên bên mua có quyền lựa chọn không có bảo lãnh; khi đó việc bảo lãnh không bắt buộc áp dụng cho hợp đồng của bên mua đó, và điều này phải được thỏa thuận bằng văn bản khi ký hợp đồng.",
+      "reference_context": "Chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành trong tương lai phải được ngân hàng thương mại... chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với bên mua... Khi ký kết hợp đồng, bên mua được lựa chọn việc có hoặc không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.4260339146180155,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q07",
+      "question": "Chủ đầu tư phải cung cấp thư bảo lãnh cho bên mua căn hộ hình thành trong tương lai trong thời hạn bao lâu kể từ ngày ký hợp đồng?",
+      "answer": "Chủ đầu tư phải cung cấp thư bảo lãnh cho bên mua trong thời hạn 10 ngày làm việc kể từ ngày ký hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai hoặc thời hạn khác do các bên thỏa thuận trong hợp đồng (Document 1).",
+      "contexts": [
+        "6. Chủ đầu tư cung cấp thư bảo lãnh cho bên mua, thuê mua trong thời hạn 10 ngày\nlàm việc kể từ ngày ký hợp đồng mua bán, thuê mua nhà ở hình thành trong tương\nlai hoặc thời hạn khác do các bên thỏa thuận trong hợp đồng mua bán, thuê mua\nnhà ở hình thành trong tương lai. Chủ đầu tư chỉ được nhận tiền thanh toán của bên\nmua, thuê mua theo hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai\nsau khi đã cung cấp cho bên mua, thuê mua và bên mua, thuê mua đã nhận được",
+        "Điều 26 quy định về bảo lãnh trong bán, cho thuê mua nhà ở hình thành trong tương lai, trong đó bắt buộc chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành trong tương lai phải được ngân hàng thương mại trong nước, chi nhánh ngân hàng nước ngoài đang hoạt động hợp pháp tại Việt Nam chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với bên mua, thuê mua nhà ở khi chủ đầu tư không bàn giao nhà ở theo cam kết trong hợp đồng mua bán, thuê mua nhà ở hình thành",
+        "Thỏa thuận cấp bảo lãnh ký giữa ngân hàng bảo lãnh với chủ đầu tư dự án và\nthư bảo lãnh của ngân hàng bảo lãnh phát hành cho bên mua, thuê mua nhà ở hình\nthành trong tương lai phải ghi cụ thể về thời hạn hiệu lực.",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "Căn cứ vào thỏa thuận cấp bảo lãnh đã ký, ngân hàng bảo lãnh gửi chủ đầu tư\ndự án bất động sản văn bản cam kết khẳng định sẽ phát hành thư bảo lãnh cho tất\ncả  bên  mua,  thuê  mua  nhà  ở  thuộc  dự  án  được  chấp  thuận  cấp  bảo  lãnh  của  chủ\nđầu tư. Chủ đầu tư có trách nhiệm gửi bản sao văn bản cam kết này cho bên mua,\nthuê mua khi ký kết hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai."
+      ],
+      "ground_truth": "Trong thời hạn 10 ngày làm việc kể từ ngày ký hợp đồng mua bán nhà ở hình thành trong tương lai (hoặc thời hạn khác do các bên thỏa thuận trong hợp đồng). Chủ đầu tư chỉ được nhận tiền thanh toán sau khi bên mua đã nhận được thư bảo lãnh.",
+      "reference_context": "Chủ đầu tư cung cấp thư bảo lãnh cho bên mua, thuê mua trong thời hạn 10 ngày làm việc kể từ ngày ký hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai hoặc thời hạn khác do các bên thỏa thuận. Chủ đầu tư chỉ được nhận tiền thanh toán của bên mua sau khi đã cung cấp cho bên mua và bên mua đã nhận được thư bảo lãnh.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.46853886702613384,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q08",
+      "question": "Nhà ở, công trình xây dựng có sẵn (không phải hình thành trong tương lai) cần đáp ứng điều kiện gì để được đưa vào kinh doanh?",
+      "answer": "Nhà ở, công trình xây dựng có sẵn cần đáp ứng các điều kiện sau để được đưa vào kinh doanh:\n\n1. Các loại nhà ở có sẵn, trừ các loại nhà ở thuộc tài sản công theo quy định của Luật Nhà ở (Điều 12, Document 4).\n2. Các loại công trình xây dựng có sẵn quy định tại khoản 2 Điều 5 của Luật này (Điều 12, Document 4).\n3. Phần diện tích sàn xây dựng trong công trình xây dựng có sẵn quy định tại khoản 3 Điều 5 của Luật này (Điều 12, Document 4).",
+      "contexts": [
+        "Điều 14. Điều kiện của nhà ở, công trình xây dựng có sẵn đưa vào kinh doanh\n\n1. Nhà ở, công trình xây dựng đưa vào kinh doanh phải có đủ các điều kiện\n\nsau đây:",
+        "Điều 30. Điều kiện đối với đất đã có hạ tầng kỹ thuật trong dự án bất động sản được chuyển nhượng quyền sử dụng đất cho cá nhân tự xây dựng nhà ở\n\n## **12. Các loại công trình có sẵn, hình thành trong tương lai được đưa vào kinh doanh**\n\nLuật Kinh doanh bất động sản 2023 đã bổ sung, quy định cụ thể loại công trình xây dựng có sẵn và công trình xây dựng hình thành trong tương lai được đưa vào kinh doanh gồm:",
+        "5. Nhà ở, công trình xây dựng hình thành trong tương lai đã đủ điều kiện đưa\nvào kinh doanh theo quy định của Luật số 66/2014/QH13 mà đến thời điểm Luật\nnày  có  hiệu  lực  thi  hành  chưa  ký  hợp  đồng  mua  bán,  thuê  mua  thì  tiếp  tục  thực\nhiện  các  thủ  tục  bán,  thuê  mua  theo  quy  định  của  Luật  số  66/2014/QH13  nhưng\nphải  thực  hiện  công  khai  thông  tin  về  bất  động  sản,  dự  án  bất  động  sản đưa  vào",
+        "Chương II\nKINH DOANH NHÀ Ở, CÔNG TRÌNH XÂY DỰNG CÓ SẴN\n\nĐiều 12. Nhà ở, công trình xây dựng có sẵn được đưa vào kinh doanh\n\n1. Các loại nhà ở có sẵn, trừ các loại nhà ở thuộc tài sản công theo quy định\n\ncủa Luật Nhà ở.\n\n2. Các loại công trình xây dựng có sẵn quy định tại khoản 2 Điều 5 của Luật này.\n\n3. Phần diện tích sàn xây dựng trong công trình xây dựng có sẵn quy định tại\n\nkhoản 3 Điều 5 của Luật này.\n\nĐiều 13. Nguyên tắc kinh doanh nhà ở, công trình xây dựng có sẵn",
+        "CÔNG BÁO/Số 43 + 44/Ngày 08-01-2024\n\n47\n\nĐiều 24. Điều kiện của nhà ở, công trình xây dựng hình thành trong tương\n\nlai được đưa vào kinh doanh\n\n1. Nhà ở, công trình xây dựng đã được khởi công xây dựng theo quy định của\n\npháp luật về xây dựng.\n\n2. Có một trong các loại giấy tờ về quyền sử dụng đất sau đây:\n\na) Quyết định giao đất;\n\nb) Quyết định cho thuê đất và hợp đồng về cho thuê quyền sử dụng đất theo\n\nquy định của pháp luật về đất đai;\n\nc) Quyết định cho phép chuyển mục đích sử dụng đất;"
+      ],
+      "ground_truth": "Phải có giấy chứng nhận quyền sở hữu nhà ở/quyền sử dụng đất hợp lệ; không thuộc diện đang có tranh chấp về quyền sử dụng đất hoặc quyền sở hữu chưa được giải quyết; không bị kê biên để bảo đảm thi hành án; không thuộc trường hợp pháp luật cấm giao dịch; không đang bị đình chỉ hoặc tạm đình chỉ giao dịch; và đã được công khai thông tin theo quy định.",
+      "reference_context": "Nhà ở, công trình xây dựng đưa vào kinh doanh phải có đủ các điều kiện: có Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở...; không thuộc trường hợp đang có tranh chấp...; không bị kê biên để bảo đảm thi hành án; không thuộc trường hợp luật cấm giao dịch; không thuộc trường hợp đang trong thời gian bị đình chỉ, tạm đình chỉ giao dịch; đã được công khai thông tin theo quy định tại Điều 6 của Luật này.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5244111204754097,
+      "context_recall": 1.0,
+      "context_precision": 0.9166666666361111
+    },
+    {
+      "id": "q09",
+      "question": "Bên mua căn hộ có được chuyển nhượng lại hợp đồng mua bán căn hộ hình thành trong tương lai cho người khác không, và điều kiện là gì?",
+      "answer": "Bên mua căn hộ chỉ được chuyển nhượng hợp đồng mua bán căn hộ cho bên thứ ba khi có đủ các điều kiện theo quy định của pháp luật về kinh doanh bất động sản. Các bên có thể thỏa thuận và ghi rõ các điều kiện chuyển nhượng hợp đồng trong hợp đồng mua bán căn hộ *(Document 1)*.",
+      "contexts": [
+        "3. Hai bên thống nhất rằng, Bên mua chỉ được chuyển nhượng hợp đồng mua bán hộ cho bên thứ ba khi có đủ các điều kiện theo quy định của pháp luật về kinh doanh bất động sản *(Các bên có thể thỏa thuận, ghi rõ các điều kiện chuyển nhượng hợp đồng mua bán căn hộ: ………………).*",
+        "*Trong trường hợp này Bên bán được quyền bán căn hộ cho khách hàng khác mà không cần có sự đồng ý của Bên mua nhưng phải thông báo bằng văn bản cho Bên mua biết trước ít nhất 30 ngày. Bên bán sẽ hoàn trả lại số tiền mà Bên mua đã thanh toán………… (có hoặc không tính lãi suất do các bên thỏa thuận) sau khi đã khấu trừ tiền bồi thường về việc Bên mua vi phạm hợp đồng này là …………% (………… phần trăm) tổng giá trị hợp đồng này (chưa tính thuế) (do các bên thỏa thuận % này).*",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh",
+        "4. Trong cả hai trường hợp nêu tại khoản 1 và khoản 2 Điều này, người mua lại nhà ở hoặc bên nhận chuyển nhượng hợp đồng mua bán căn hộ đều được hưởng các quyền và phải thực hiện các nghĩa vụ của Bên mua theo thỏa thuận trong hợp đồng này và trong Bản nội quy nhà chung cư.\n\n5. Các thỏa thuận khác *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội):*……………………………………………………\n\n**Điều 11. Phần sở hữu riêng, phần sở hữu chung và việc sử dụng căn hộ trong nhà chung cư**",
+        "3. Hai bên thống nhất rằng, Bên mua/bên thuê mua chỉ được chuyển nhượng hợp đồng mua bán/thuê mua cho bên thứ ba khi có đủ các điều kiện theo quy định của pháp luật về kinh doanh bất động sản *(Các bên có thể thỏa thuận, ghi rõ các điều kiện chuyển nhượng hợp đồng mua căn hộ: ………).*"
+      ],
+      "ground_truth": "Có, bên mua nhà ở hình thành trong tương lai được quyền chuyển nhượng hợp đồng mua bán cho bên thứ ba, với điều kiện: hồ sơ đề nghị cấp giấy chứng nhận quyền sử dụng đất/quyền sở hữu tài sản chưa được nộp cho cơ quan nhà nước; hợp đồng không có tranh chấp đang được thụ lý giải quyết (trừ tranh chấp đã có bản án/quyết định có hiệu lực); căn hộ không bị kê biên hoặc thế chấp để bảo đảm nghĩa vụ (trừ khi bên nhận thế chấp đồng ý); và hợp đồng gốc được xác lập hợp pháp. Việc chuyển nhượng phải thực hiện với toàn bộ hợp đồng và bên bán không được thu thêm phí chuyển nhượng.",
+      "reference_context": "Việc chuyển nhượng hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng phải bảo đảm các điều kiện: thuộc diện chưa nộp hồ sơ đề nghị cấp giấy chứng nhận...; hợp đồng không có tranh chấp đang thụ lý giải quyết...; nhà ở không thuộc diện bị kê biên, thế chấp...; có hợp đồng mua bán được xác lập theo quy định của pháp luật.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4458827887972574,
+      "context_recall": 0.6666666666666666,
+      "context_precision": 0.8041666666465626
+    },
+    {
+      "id": "q10",
+      "question": "Thời điểm xác lập quyền sở hữu nhà ở đối với trường hợp mua bán nhà ở thông thường (không phải mua từ chủ đầu tư dự án) được xác định khi nào?",
+      "answer": "Thời điểm xác lập quyền sở hữu nhà ở đối với trường hợp mua bán nhà ở thông thường (không phải mua từ chủ đầu tư dự án) là thời điểm bên mua đã thanh toán đủ tiền mua và đã nhận bàn giao nhà ở, trừ trường hợp các bên có thỏa thuận khác (Document 1).",
+      "contexts": [
+        "2. Trường hợp mua bán, thuê mua nhà ở mà không thuộc trường hợp quy định\ntại khoản 4 Điều này thì thời điểm xác lập quyền sở hữu nhà ở là thời điểm bên\nmua, bên thuê mua đã thanh toán đủ tiền mua, tiền thuê mua và đã nhận bàn giao\nnhà ở, trừ trường hợp các bên có thỏa thuận khác.",
+        "3. Trường hợp góp vốn, tặng cho, đổi nhà ở thì thời điểm xác lập quyền sở hữu\nnhà ở là thời điểm bên nhận góp vốn, bên nhận tặng cho, bên nhận đổi đã nhận bàn\ngiao nhà ở từ bên góp vốn, bên tặng cho, bên đổi nhà ở, trừ trường hợp các bên có\nthỏa thuận khác.\n\n4. Trường hợp mua bán, thuê mua nhà ở giữa chủ đầu tư dự án đầu tư xây dựng\nnhà ở với người mua, người thuê mua thì thời điểm xác lập quyền sở hữu nhà ở\nđược thực hiện theo quy định của pháp luật về kinh doanh bất động sản.",
+        "2. Trường hợp mua bán nhà ở có thời hạn theo quy định tại khoản 1 Điều 165\ncủa Luật này thì bên mua nhà ở được cấp Giấy chứng nhận trong thời hạn sở hữu\ntheo thỏa thuận; khi hết thời hạn sở hữu nhà ở thì quyền sở hữu nhà ở được chuyển\nlại cho chủ sở hữu đã bán nhà ở theo thỏa thuận trong hợp đồng; trường hợp khi\nhết thời hạn sở hữu mà bên bán không nhận lại nhà ở thì giải quyết theo quy định\ntại Điều 166 của Luật này và quy định khác của pháp luật có liên quan.",
+        "5. Bên mua, thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng\ntrong công trình xây dựng được xác lập quyền sở hữu đối với nhà ở, công trình xây\ndựng, phần diện tích sàn xây dựng trong công trình xây dựng đã mua, thuê mua.\nThời  điểm  xác  lập  quyền  sở  hữu  nhà  ở,  công  trình  xây  dựng,  phần  diện  tích  sàn\nxây dựng trong công trình xây dựng đối với bên mua, thuê mua là kể từ thời điểm\nbên mua, thuê mua đã thanh toán đủ tiền mua, tiền thuê mua và đã nhận bàn giao",
+        "14\n\nCÔNG BÁO/Số 37 + 38/Ngày 08-01-2024\n\n3. Người sử dụng nhà ở không phải là chủ sở hữu nhà ở phải thực hiện nghĩa\nvụ trong việc quản lý, sử dụng nhà ở theo thỏa thuận với chủ sở hữu nhà ở, quy\nđịnh của Luật này và quy định khác của pháp luật có liên quan.\n\nĐiều 12. Thời điểm xác lập quyền sở hữu nhà ở\n\n1. Trường hợp trực tiếp đầu tư xây dựng nhà ở thì thời điểm xác lập quyền sở\nhữu nhà ở là thời điểm đã hoàn thành việc xây dựng nhà ở theo quy định của pháp\nluật về xây dựng."
+      ],
+      "ground_truth": "Thời điểm xác lập quyền sở hữu nhà ở là thời điểm bên mua đã thanh toán đủ tiền mua và đã nhận bàn giao nhà ở, trừ trường hợp các bên có thỏa thuận khác.",
+      "reference_context": "Trường hợp mua bán, thuê mua nhà ở mà không thuộc trường hợp quy định tại khoản 4 Điều này thì thời điểm xác lập quyền sở hữu nhà ở là thời điểm bên mua, bên thuê mua đã thanh toán đủ tiền mua, tiền thuê mua và đã nhận bàn giao nhà ở, trừ trường hợp các bên có thỏa thuận khác.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.676648383884744,
+      "context_recall": 1.0,
+      "context_precision": 0.999999999975
+    },
+    {
+      "id": "q11",
+      "question": "Diện tích căn hộ ghi trong hợp đồng mua bán căn hộ chung cư (mẫu số 1a) được tính theo cách nào?",
+      "answer": "Diện tích căn hộ ghi trong hợp đồng mua bán căn hộ chung cư (mẫu số 1a) được tính theo kích thước thông thủy (gọi chung là diện tích thông thủy) theo quy định tại khoản 6 Điều 1 của hợp đồng này và là căn cứ để tính tiền mua căn hộ quy định tại Điều 3 của hợp đồng này (Document 5).",
+      "contexts": [
+        "c) Diện tích sàn xây dựng là: …………m2. Diện tích này được xác định theo quy định tại khoản 6 Điều 1 của hợp đồng này;\n\nd) Mục đích sử dụng căn hộ: để ở.\n\n*(Trường hợp trong hợp đồng mua bán căn hộ mà các bên đồng thời có thỏa thuận mua bán thêm phần diện tích khác trong nhà chung cư theo thiết kế được duyệt để kinh doanh thì các bên lập phụ lục hợp đồng để thỏa thuận mô tả rõ các thông tin về diện tích, vị trí, công năng sử dụng, ………… và các nội dung liên quan đến mua bán phần diện tích này)*",
+        "Hai bên nhất trí rằng, diện tích sử dụng ghi tại điểm này chỉ là tạm tính và có thể tăng lên hoặc giảm đi theo thực tế đo đạc tại thời điểm bàn giao căn hộ. Bên mua có trách nhiệm thanh toán số tiền mua căn hộ cho Bên bán theo diện tích thực tế khi bàn giao căn hộ; trong trường hợp diện tích sử dụng thực tế chênh lệch cao hơn hoặc thấp hơn ………… % (………… phần trăm) so với diện tích ghi trong hợp đồng này thì hai bên không phải điều chỉnh lại giá bán/giá cho Bên mua căn hộ",
+        "tích sử dụng căn hộ được ghi vào Giấy chứng nhận cấp cho người mua căn hộ.",
+        "Trong biên bản bàn giao căn hộ hoặc trong phụ lục của hợp đồng, hai bên nhất trí sẽ ghi rõ diện tích sử dụng thực tế khi bàn giao căn hộ, diện tích sử dụng chênh lệch so với diện tích ghi trong hợp đồng mua bán đã ký (nếu có). Biên bản bàn giao căn hộ và phụ lục của hợp đồng mua bán căn hộ là một bộ phận không thể tách rời của hợp đồng này. Diện tích căn hộ được ghi vào Giấy chứng nhận cấp cho Bên mua được xác định theo diện tích sử dụng thực tế khi bàn giao căn hộ;",
+        "b) Diện tích sử dụng căn hộ là: …………m2. Diện tích này được tính theo kích thước thông thủy (gọi chung là diện tích thông thủy) theo quy định tại khoản 6 Điều 1 của hợp đồng này và là căn cứ để tính tiền mua căn hộ quy định tại Điều 3 của hợp đồng này;"
+      ],
+      "ground_truth": "Diện tích sử dụng căn hộ được tính theo kích thước thông thủy (diện tích thông thủy), và đây là căn cứ để tính tiền mua căn hộ. Diện tích ghi trong hợp đồng chỉ là tạm tính, có thể thay đổi theo thực tế đo đạc khi bàn giao; hai bên thỏa thuận một tỷ lệ chênh lệch cho phép mà không phải điều chỉnh lại giá, nếu vượt quá tỷ lệ đó thì giá bán được điều chỉnh theo diện tích đo đạc thực tế.",
+      "reference_context": "Diện tích sử dụng căn hộ là ... m2. Diện tích này được tính theo kích thước thông thủy... và là căn cứ để tính tiền mua căn hộ... diện tích sử dụng ghi tại điểm này chỉ là tạm tính và có thể tăng lên hoặc giảm đi theo thực tế đo đạc tại thời điểm bàn giao căn hộ.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4779568393135336,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q12",
+      "question": "Giá bán căn hộ chung cư theo mẫu hợp đồng số 1a đã bao gồm những khoản gì?",
+      "answer": "Giá bán căn hộ chung cư theo mẫu hợp đồng số Ia đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư (Document 5).",
+      "contexts": [
+        "3. “Hợp đồng” là hợp đồng mua bán căn hộ chung cư này và toàn bộ các phụ lục, tài liệu đính kèm cũng như mọi sửa đổi, bổ sung bằng văn bản đối với hợp đồng này do các bên lập và ký kết trong quá trình thực hiện hợp đồng này.\n\n4. “Giá bán/giá cho Bên mua căn hộ” là tổng số tiền bán căn hộ được xác định tại Điều 3 của hợp đồng này.",
+        "# mau-so-1a\n\n**Mẫu số Ia: nội dung hợp đồng mẫu áp dụng trong mua bán căn hộ chung cư**\n\n**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n---------------**\n\n*…, ngày... tháng... năm ….*\n\n**HỢP ĐỒNG MUA BÁN NHÀ Ở**\n\nSố: .../.....\n\nCăn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;\n\nCăn cứ Luật Kinh doanh bất động sản ngày 28 tháng 11 năm 2023;\n\nCăn cứ Nghị định số …/.../NĐ-CP ngày….. tháng ...... năm…… của Chính phủ quy định chi tiết một số điều của Luật Kinh doanh bất động sản;",
+        "(Bằng chữ ……………………………………………………………………………..)\n\nb) Giá bán/giá Bên mua căn hộ quy định tại điểm a khoản này không bao gồm các khoản sau:\n\n- Các khoản lệ phí trước bạ, phí và lệ phí theo quy định của pháp luật liên quan đến việc thực hiện các thủ tục xin cấp Giấy chứng nhận cho Bên mua. Các khoản lệ phí trước bạ, phí và lệ phí này do Bên mua chịu trách nhiệm thanh toán;",
+        "3. Kèm theo hợp đồng này là 01 bản vẽ thiết kế mặt bằng căn hộ mua bán, 01 bản vẽ thiết kế mặt bằng tầng có căn hộ mua bán, 01 bản vẽ thiết kế mặt bằng tòa nhà chung cư có căn hộ mua bán nêu tại Điều 2 của hợp đồng này đã được phê duyệt, 01 bản nội quy quản lý sử dụng nhà chung cư, 01 bản danh mục vật liệu xây dựng căn hộ *(nếu mua bán nhà ở hình thành trong tương lai)* và các giấy tờ khác như .……………………………………………………",
+        "1. Giá bán/giá Bên mua:\n\na) Giá bán/giá Bên mua căn hộ được tính theo công thức lấy đơn giá 01 m2 diện tích sử dụng căn hộ (x) với tổng diện tích sử dụng căn hộ mua bán; cụ thể là: ………… m2 sử dụng (x) ………… đồng/1 m2 sử dụng =………… đồng. (Bằng chữ: …………).\n\nGiá bán/giá Bên mua căn hộ quy định tại điểm này đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư, trong đó:"
+      ],
+      "ground_truth": "Giá bán/giá bên mua căn hộ đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư (kinh phí bảo trì bằng 2% giá bán, tính trước thuế). Giá này chưa bao gồm lệ phí trước bạ, phí/lệ phí cấp giấy chứng nhận, chi phí kết nối dịch vụ riêng của căn hộ và kinh phí quản lý vận hành hàng tháng.",
+      "reference_context": "Giá bán/giá Bên mua căn hộ quy định tại điểm này đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư... Kinh phí bảo trì phần sở hữu chung của nhà chung cư bằng 2% giá bán/giá Bên mua căn hộ (kinh phí này được tính trước thuế).",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4922792385240418,
+      "context_recall": 1.0,
+      "context_precision": 0.8666666666377778
+    },
+    {
+      "id": "q13",
+      "question": "Nội dung bảo hành nhà ở đối với căn hộ chung cư theo mẫu hợp đồng số 1a bao gồm những gì?",
+      "answer": "Nội dung bảo hành nhà ở đối với căn hộ chung cư theo mẫu hợp đồng số 1a bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, và khắc phục các trường hợp nghiêng, lún, sụt nhà ở (Document 1).",
+      "contexts": [
+        "3. Nội dung bảo hành nhà ở (kể cả căn hộ trong nhà chung cư có mục đích sử dụng hỗn hợp) bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, khắc phục các trường hợp nghiêng, lún, sụt nhà ở",
+        ". “Bảo hành nhà ở” là việc Bên bán căn hộ chung cư thực hiện trách nhiệm bảo hành căn hộ chung cư theo thỏa thuận trong hợp đồng và quy định của pháp luật để khắc phục, sửa chữa, thay thế các hạng mục được liệt kê cụ thể tại Điều 9 của hợp đồng này khi bị hư hỏng, khiếm khuyết hoặc khi vận hành sử dụng không bình thường mà không phải do lỗi của người sử dụng căn hộ gây ra trong khoảng thời gian bảo hành theo quy định của pháp luật nhà ở, pháp luật xây dựng và theo thỏa thuận trong hợp đồng này.",
+        "e) Các trường hợp khác do các bên thỏa thuận (nếu có): ………………………………\n\n7. Sau thời hạn bảo hành theo thỏa thuận tại khoản 5 Điều này, việc sửa chữa các hư hỏng của căn hộ thuộc trách nhiệm của Bên mua. Việc bảo trì Phần sở hữu chung của nhà chung cư được thực hiện theo quy định của pháp luật về nhà ở.\n\n8. Các thỏa thuận khác *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội)*: ………………………………………………………………\n\n**Điều 10. Chuyển giao quyền và nghĩa vụ**",
+        "3. Nội dung bảo hành nhà ở bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, khắc phục các trường hợp nghiêng, lún, sụt nhà ở",
+        "b) Xây dựng nhà ở và các công trình hạ tầng theo đúng quy hoạch, nội dung hồ sơ dự án và tiến độ đã được phê duyệt, đảm bảo khi bàn giao căn hộ thì Bên mua có thể sử dụng và sinh hoạt bình thường;\n\nc) Đảm bảo chất lượng xây dựng, kiến trúc kỹ thuật và mỹ thuật nhà chung cư theo đúng tiêu chuẩn thiết kế, tiêu chuẩn kỹ thuật hiện hành;\n\nd) Bảo quản căn hộ trong thời gian chưa giao nhà ở cho Bên mua; thực hiện bảo hành căn hộ và nhà chung cư theo quy định tại Điều 9 của hợp đồng này;"
+      ],
+      "ground_truth": "Bảo hành bao gồm sửa chữa, khắc phục hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp lát trát), các thiết bị gắn liền với nhà ở như hệ thống cửa, cấp chất đốt, đường dây cấp điện sinh hoạt và chiếu sáng, hệ thống cấp thoát nước, và khắc phục các trường hợp nghiêng, lún, sụt nhà ở. Các thiết bị khác gắn với nhà ở được bảo hành theo quy định của nhà sản xuất/nhà phân phối.",
+      "reference_context": "Nội dung bảo hành nhà ở... bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, khắc phục các trường hợp nghiêng, lún, sụt nhà ở.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6237858898955918,
+      "context_recall": 0.5,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q14",
+      "question": "Bên bán căn hộ được miễn trách nhiệm bảo hành trong những trường hợp nào?",
+      "answer": "Xin lỗi, nhưng thông tin về các trường hợp mà Bên bán không thực hiện bảo hành căn hộ không có trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "Bên bán có trách nhiệm thực hiện bảo hành căn hộ bằng cách thay thế hoặc sửa chữa các điểm bị khuyết tật hoặc thay thế các trang thiết bị cùng loại có chất lượng tương đương hoặc tốt hơn. Việc bảo hành bằng cách thay thế hoặc sửa chữa chỉ do Bên bán hoặc Bên được Bên bán ủy quyền thực hiện.",
+        "4. Bên mua phải kịp thời thông báo bằng văn bản cho Bên bán khi căn hộ có các hư hỏng thuộc diện được bảo hành. Trong thời hạn ………… ngày, kể từ ngày nhận được thông báo của Bên mua, Bên bán có trách nhiệm thực hiện bảo hành các hư hỏng theo đúng thỏa thuận và theo quy định của pháp luật; Bên mua phải tạo điều kiện để Bên bán thực hiện bảo hành căn hộ",
+        "5. Kể từ thời điểm hai bên ký biên bản bàn giao căn hộ, Bên mua được toàn quyền sử dụng căn hộ và chịu mọi trách nhiệm có liên quan đến căn hộ mua, kể cả trường hợp Bên mua có sử dụng hay chưa sử dụng căn hộ này.\n\n6. Các thỏa thuận khác *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội):* ……………………………………………………\n\n**Điều 9. Bảo hành nhà ở**",
+        "**Điều 9. Bảo hành nhà ở**\n\n1. Bên bán có trách nhiệm bảo hành căn hộ đã bán theo đúng quy định theo thỏa thuận trong hợp đồng và quy định của pháp luật về nhà ở, pháp luật khác có liên quan và các quy định sửa đổi, bổ sung của Nhà nước vào từng thời điểm.",
+        "5. Căn hộ được bảo hành kể từ khi hoàn thành việc xây dựng và nghiệm thu đưa vào sử dụng với thời hạn theo quy định của pháp luật về xây dựng. Thời gian bảo hành nhà ở được tính từ ngày Bên bán ký biên bản nghiệm thu đưa nhà ở vào sử dụng theo quy định của pháp luật về xây dựng. Cụ thể như sau: …………………… *(ghi thời hạn bảo hành theo quy định pháp luật tương ứng với công trình xây dựng).*\n\n6. Bên bán không thực hiện bảo hành căn hộ trong các trường hợp sau đây:"
+      ],
+      "ground_truth": "Bên bán không phải bảo hành trong các trường hợp: hao mòn và khấu hao thông thường; hư hỏng do lỗi của bên mua hoặc người sử dụng/bên thứ ba gây ra; hư hỏng do sự kiện bất khả kháng; đã hết thời hạn bảo hành theo thỏa thuận; hoặc các hạng mục không thuộc nội dung bảo hành đã thỏa thuận, bao gồm thiết bị do bên mua tự lắp đặt/sửa chữa mà không có sự đồng ý của bên bán.",
+      "reference_context": "Bên bán không thực hiện bảo hành căn hộ trong các trường hợp sau đây: a) Trường hợp hao mòn và khấu hao thông thường; b) Trường hợp hư hỏng do lỗi của Bên mua hoặc của bất kỳ người sử dụng hoặc của bên thứ ba nào khác gây ra; c) Trường hợp hư hỏng do sự kiện bất khả kháng; d) Trường hợp đã hết thời hạn bảo hành...",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.0,
+      "context_precision": 0.32499999998375
+    },
+    {
+      "id": "q15",
+      "question": "Nếu bên mua căn hộ chậm thanh toán tiền mua theo tiến độ trong hợp đồng thì có thể bị xử lý như thế nào?",
+      "answer": "Nếu bên mua chậm thanh toán tiền mua căn hộ theo tiến độ trong hợp đồng, bên mua sẽ bị tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán. Mức lãi suất phạt sẽ được thỏa thuận cụ thể giữa các bên, có thể tính theo phần trăm lãi suất/ngày hoặc theo từng tháng, và được công bố bởi ngân hàng tại thời điểm thanh toán (Document 1).",
+      "contexts": [
+        "*- Nếu quá ………… ngày, kể từ ngày đến hạn phải thanh toán tiền mua căn hộ theo thỏa thuận tại khoản 3 Điều 3 của hợp đồng này mà Bên mua không thực hiện thanh toán thì sẽ bị tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán là: …………% (…………phần trăm) theo lãi suất ………… (các bên thỏa thuận cụ thể % lãi suất/ngày hoặc theo từng tháng và lãi suất có kỳ hạn ………… tháng hoặc không kỳ hạn) do Ngân hàng ………… công bố tại thời điểm thanh toán và được tính bắt đầu từ ngày phải thanh toán đến ngày",
+        "*- Nếu Bên mua đã thanh toán tiền mua căn hộ theo tiến độ thỏa thuận trong hợp đồng này nhưng quá thời hạn ………… ngày, kể từ ngày Bên bán phải bàn giao căn hộ theo thỏa thuận tại Điều 8 của hợp đồng này mà Bên bán vẫn chưa bàn giao căn hộ cho Bên mua thì Bên bán phải thanh toán cho Bên mua khoản tiền phạt vi phạm với lãi suất là ………% (………phần trăm) (các bên thỏa thuận cụ thể % lãi suất/ngày hoặc theo từng tháng và lãi suất có kỳ hạn ………… tháng hoặc không kỳ hạn) do Ngân hàng ………… công bố tại",
+        "*- Nếu Bên bán chậm bàn giao căn hộ quá ………… ngày, kể từ ngày phải bàn giao căn hộ theo thỏa thuận tại Điều 8 của hợp đồng này thì Bên mua có quyền tiếp tục thực hiện hợp đồng này với thỏa thuận bổ sung về thời điểm bàn giao căn hộ mới hoặc đơn phương chấm dứt hợp đồng theo thỏa thuận tại Điều 15 của hợp đồng này.*",
+        "2. Hai bên thống nhất hình thức, cách thức xử lý vi phạm khi Bên bán chậm trễ bàn giao căn hộ cho Bên mua: ………………………………\n\n*(Các bên có thể thỏa thuận các nội dung sau đây:*",
+        "k) Các nghĩa vụ khác theo thỏa thuận của các bên *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội)**……*\n\n**Điều 11. Trách nhiệm của hai bên và việc xử lý vi phạm hợp đồng**\n\n1. Hai bên thống nhất hình thức, cách thức xử lý vi phạm khi Bên mua/bên thuê mua chậm trễ thanh toán tiền mua/thuê mua nhà ở: ........................................\n\n*(Các bên có thể thỏa thuận các nội dung sau đây:*"
+      ],
+      "ground_truth": "Nếu bên mua chậm thanh toán quá số ngày đã thỏa thuận, bên mua sẽ bị tính lãi suất phạt quá hạn trên số tiền chậm thanh toán, tính từ ngày phải thanh toán đến ngày thực trả. Nếu tổng thời gian chậm thanh toán của tất cả các đợt vượt quá số ngày thỏa thuận, bên bán có quyền đơn phương chấm dứt hợp đồng, được bán lại căn hộ cho khách hàng khác (phải thông báo trước ít nhất 30 ngày) và hoàn trả tiền đã nhận cho bên mua sau khi khấu trừ khoản bồi thường vi phạm hợp đồng theo tỷ lệ phần trăm đã thỏa thuận.",
+      "reference_context": "Nếu quá ... ngày, kể từ ngày đến hạn phải thanh toán tiền mua căn hộ... mà Bên mua không thực hiện thanh toán thì sẽ bị tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán... nếu tổng thời gian Bên mua trễ hạn thanh toán... vượt quá ... ngày thì Bên bán có quyền đơn phương chấm dứt hợp đồng... Bên bán được quyền bán căn hộ cho khách hàng khác... nhưng phải thông báo bằng văn bản cho Bên mua biết trước ít nhất 30 ngày.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5276434465129877,
+      "context_recall": 1.0,
+      "context_precision": 0.8666666666377778
+    },
+    {
+      "id": "q16",
+      "question": "Nếu bên bán chậm bàn giao căn hộ so với thời hạn cam kết trong hợp đồng, bên mua có những quyền gì?",
+      "answer": "Nếu bên bán chậm bàn giao căn hộ so với thời hạn cam kết trong hợp đồng, bên mua có quyền tiếp tục thực hiện hợp đồng với thỏa thuận bổ sung về thời điểm bàn giao căn hộ mới hoặc đơn phương chấm dứt hợp đồng theo thỏa thuận trong hợp đồng (Điều 15) (Document 1).",
+      "contexts": [
+        "*- Nếu Bên bán chậm bàn giao căn hộ quá ………… ngày, kể từ ngày phải bàn giao căn hộ theo thỏa thuận tại Điều 8 của hợp đồng này thì Bên mua có quyền tiếp tục thực hiện hợp đồng này với thỏa thuận bổ sung về thời điểm bàn giao căn hộ mới hoặc đơn phương chấm dứt hợp đồng theo thỏa thuận tại Điều 15 của hợp đồng này.*",
+        "*- Nếu Bên bán/bên cho thuê mua chậm bàn giao nhà ở quá ….. ngày, kể từ ngày phải bàn giao nhà ở theo thỏa thuận tại Điều 5 của hợp đồng này thì Bên mua/bên thuê mua có quyền tiếp tục thực hiện hợp đồng này với thỏa thuận bổ sung về thời điểm bàn giao nhà ở mới hoặc đơn phương chấm dứt hợp đồng theo thỏa thuận tại Điều 14 của hợp đồng này.*",
+        "2. Bên bán bàn giao căn hộ cho Bên mua vào ………… *(ghi rõ thời gian bàn giao căn hộ).*\n\nViệc bàn giao căn hộ có thể sớm hơn hoặc muộn hơn so với thời gian quy định tại khoản này, nhưng không được chậm quá ………… ngày, kể từ thời điểm đến hạn bàn giao căn hộ cho Bên mua; Bên bán phải có văn bản thông báo cho Bên mua biết lý do chậm bàn giao căn hộ *(Trường hợp không thể bàn giao căn hộ không đúng thời hạn thì các bên phải thỏa thuận về các nội dung liên quan đến việc thay đổi thời hạn bàn giao).*",
+        "2. Hai bên thống nhất hình thức, cách thức xử lý vi phạm khi Bên bán chậm trễ bàn giao căn hộ cho Bên mua: ………………………………\n\n*(Các bên có thể thỏa thuận các nội dung sau đây:*",
+        "5. Các nội dung thỏa thuận khác (nếu có): ……………………………………………………\n\n**Điều 5. Quyền và nghĩa vụ của Bên bán**\n\n1. Quyền của Bên bán:\n\na) Yêu cầu Bên mua trả tiền mua căn hộ theo đúng thỏa thuận tại Điều 3 của hợp đồng và được tính lãi suất trong trường hợp Bên mua chậm thanh toán theo tiến độ thỏa thuận tại Điều 3 của hợp đồng này. Việc tính lãi suất chậm thanh toán được quy định cụ thể tại khoản 1 Điều 12 của hợp đồng này;"
+      ],
+      "ground_truth": "Nếu bên mua đã thanh toán đúng tiến độ nhưng bên bán chậm bàn giao quá thời hạn thỏa thuận, bên bán phải trả cho bên mua khoản tiền phạt vi phạm tính theo lãi suất trên số tiền đã thanh toán, tính từ ngày phải bàn giao đến ngày bàn giao thực tế. Nếu chậm bàn giao vượt quá số ngày thỏa thuận, bên mua có quyền tiếp tục hợp đồng với thời điểm bàn giao mới hoặc đơn phương chấm dứt hợp đồng; khi đó bên bán phải hoàn trả toàn bộ số tiền đã nhận và bồi thường một khoản phạt vi phạm theo tỷ lệ phần trăm giá trị hợp đồng đã thỏa thuận.",
+      "reference_context": "Nếu Bên mua đã thanh toán tiền mua căn hộ theo tiến độ thỏa thuận... nhưng quá thời hạn... mà Bên bán vẫn chưa bàn giao căn hộ... thì Bên bán phải thanh toán cho Bên mua khoản tiền phạt vi phạm... Nếu Bên bán chậm bàn giao căn hộ quá ... ngày... thì Bên mua có quyền tiếp tục thực hiện hợp đồng... hoặc đơn phương chấm dứt hợp đồng... Bên bán phải hoàn trả lại toàn bộ số tiền mà Bên mua đã thanh toán... và bồi thường cho Bên mua khoản tiền phạt vi phạm hợp đồng.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.4928538415544899,
+      "context_recall": 0.3333333333333333,
+      "context_precision": 0.999999999975
+    },
+    {
+      "id": "q17",
+      "question": "Sự kiện bất khả kháng trong hợp đồng mua bán căn hộ mẫu số 1a bao gồm những trường hợp nào, và khó khăn tài chính có được coi là bất khả kháng không?",
+      "answer": "Sự kiện bất khả kháng trong hợp đồng mua bán căn hộ mẫu số 1a bao gồm các trường hợp sau: \n\na) Do chiến tranh hoặc do thiên tai hoặc do thay đổi chính sách pháp luật của Nhà nước (Document 1).\n\nb) Do phải thực hiện quyết định của cơ quan nhà nước có thẩm quyền hoặc các trường hợp khác do pháp luật quy định (Document 5).\n\nc) Do tai nạn, ốm đau thuộc diện phải đi cấp cứu tại cơ sở y tế (Document 5).\n\nMọi trường hợp khó khăn về tài chính đơn thuần sẽ không được coi là trường hợp bất khả kháng (Document 5).",
+      "contexts": [
+        "5. Hai bên cam kết thực hiện đúng các thỏa thuận đã quy định trong hợp đồng này.\n\n6. Các thỏa thuận khác: *(các thỏa thuận này không được trái luật và không trái đạo đức xã hội)*……………………………………………………\n\n**Điều 14. Sự kiện bất khả kháng**\n\n1. Các bên nhất trí thỏa thuận một trong các trường hợp sau đây được coi là sự kiện bất khả kháng:\n\na) Do chiến tranh hoặc do thiên tai hoặc do thay đổi chính sách pháp luật của Nhà nước;",
+        "5. Hai bên cam kết thực hiện đúng các thỏa thuận đã quy định trong hợp đồng này.\n\n6. Các thỏa thuận khác *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội)*:..........................................................................................................\n\n**Điều 13. Sự kiện bất khả kháng**\n\n1. Các bên nhất trí thỏa thuận một trong các trường hợp sau đây được coi là sự kiện bất khả kháng:",
+        "3. Khi xuất hiện một trong các trường hợp bất khả kháng theo thỏa thuận tại khoản 1 Điều này thì bên bị tác động bởi trường hợp bất khả kháng phải thông báo bằng văn bản hoặc thông báo trực tiếp cho bên còn lại biết trong thời hạn …….. ngày, kể từ ngày xảy ra trường hợp bất khả kháng (*nếu có giấy tờ chứng minh về lý do bất khả kháng thì bên bị tác động phải xuất trình giấy tờ này*)",
+        "a) Trường hợp hao mòn và khấu hao thông thường;\n\nb) Trường hợp hư hỏng do lỗi của Bên mua hoặc của bất kỳ người sử dụng hoặc của bên thứ ba nào khác gây ra;\n\nc) Trường hợp hư hỏng do sự kiện bất khả kháng;\n\nd) Trường hợp đã hết thời hạn bảo hành theo thỏa thuận tại khoản 5 Điều này;\n\nđ) Các trường hợp không thuộc nội dung bảo hành theo thỏa thuận tại khoản 3 Điều này, bao gồm cả những thiết bị, bộ phận gắn liền căn hộ do Bên mua tự lắp đặt hoặc tự sửa chữa mà không được sự đồng ý của Bên bán;",
+        "b) Do phải thực hiện quyết định của cơ quan nhà nước có thẩm quyền hoặc các trường hợp khác do pháp luật quy định;\n\nc) Do tai nạn, ốm đau thuộc diện phải đi cấp cứu tại cơ sở y tế;\n\nd) Các thỏa thuận khác *(các thỏa thuận này không được trái luật và không trái đạo đức xã hội)*…………………………………………\n\n2. Mọi trường hợp khó khăn về tài chính đơn thuần sẽ không được coi là trường hợp bất khả kháng."
+      ],
+      "ground_truth": "Sự kiện bất khả kháng gồm: chiến tranh, thiên tai hoặc thay đổi chính sách pháp luật của Nhà nước; phải thực hiện quyết định của cơ quan nhà nước có thẩm quyền hoặc trường hợp khác do pháp luật quy định; tai nạn, ốm đau phải cấp cứu tại cơ sở y tế. Khó khăn về tài chính đơn thuần không được coi là sự kiện bất khả kháng.",
+      "reference_context": "Các bên nhất trí thỏa thuận một trong các trường hợp sau đây được coi là sự kiện bất khả kháng: a) Do chiến tranh hoặc do thiên tai hoặc do thay đổi chính sách pháp luật của Nhà nước; b) Do phải thực hiện quyết định của cơ quan nhà nước có thẩm quyền...; c) Do tai nạn, ốm đau thuộc diện phải đi cấp cứu... Mọi trường hợp khó khăn về tài chính đơn thuần sẽ không được coi là trường hợp bất khả kháng.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.625,
+      "answer_relevancy": 0.42557004607413357,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q18",
+      "question": "Khi xảy ra tranh chấp về hợp đồng mua bán căn hộ mà hai bên không tự thỏa thuận được thì giải quyết ở đâu?",
+      "answer": "Khi xảy ra tranh chấp về hợp đồng mua bán căn hộ mà hai bên không tự thỏa thuận được, tranh chấp sẽ được giải quyết tại cơ quan Tòa án theo quy định pháp luật (Document 1, Điều 18).",
+      "contexts": [
+        "**Điều 18. Giải quyết tranh chấp**\n\nCác bên có trách nhiệm thỏa thuận cụ thể cách thức, hình thức giải quyết tranh chấp về các nội dung của hợp đồng khi có tranh chấp phát sinh và lựa chọn………… (cơ quan Tòa án) để giải quyết theo quy định pháp luật khi hai bên không tự thỏa thuận giải quyết được.\n\n**Điều 19. Hiệu lực của hợp đồng**\n\n1. Hợp đồng này có hiệu lực từ ngày ……………………………………………………",
+        "**Điều 17. Giải quyết tranh chấp**\n\nCác bên có trách nhiệm thỏa thuận cụ thể cách thức, hình thức giải quyết tranh chấp về các nội dung của hợp đồng khi có tranh chấp phát sinh và lựa chọn ………..(cơ quan Tòa án) để giải quyết theo quy định pháp luật khi hai bên không tự thỏa thuận giải quyết được.\n\n**Điều 18. Thời điểm có hiệu lực của hợp đồng**\n\n1. Hợp đồng này có hiệu lực kể từ ngày ........................................................",
+        "2. Việc xử lý hậu quả do chấm dứt hợp đồng theo quy định tại khoản 1 Điều này như: *hoàn trả lại tiền mua căn hộ, tính lãi, các khoản phạt và bồi thường ………… do hai bên thỏa thuận cụ thể.*\n\n3. Các thỏa thuận khác *(các thỏa thuận này không được trái luật và không trái đạo đức xã hội)*……………………………………………………\n\n**Điều 16. Thông báo**\n\n1. Địa chỉ để các bên nhận thông báo của bên kia *(ghi rõ đối với Bên bán, đối với Bên mua):* ……………………………………………………",
+        "do cơ quan nhà nước có thẩm quyền cấp cho Bên mua căn hộ theo quy định của pháp luật đất đai.",
+        "c) Số tiền mua căn hộ theo hợp đồng này là hợp pháp, không có tranh chấp với bên thứ ba. Bên bán sẽ không phải chịu trách nhiệm đối với việc tranh chấp khoản tiền mà Bên mua đã thanh toán cho Bên bán theo hợp đồng này. Trong trường hợp có tranh chấp về khoản tiền mua căn hộ này thì hợp đồng này vẫn có hiệu lực đối với hai bên;\n\nd) Cung cấp các giấy tờ cần thiết khi Bên bán yêu cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên mua."
+      ],
+      "ground_truth": "Hai bên có trách nhiệm thỏa thuận trước cách thức, hình thức giải quyết tranh chấp; nếu không tự thỏa thuận giải quyết được thì tranh chấp sẽ được đưa ra cơ quan Tòa án để giải quyết theo quy định của pháp luật (các bên có thể lựa chọn cơ quan giải quyết tranh chấp khác nếu đã thỏa thuận trong hợp đồng).",
+      "reference_context": "Các bên có trách nhiệm thỏa thuận cụ thể cách thức, hình thức giải quyết tranh chấp về các nội dung của hợp đồng khi có tranh chấp phát sinh và lựa chọn ... (cơ quan Tòa án) để giải quyết theo quy định pháp luật khi hai bên không tự thỏa thuận giải quyết được.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.58221277467531,
+      "context_recall": 0.6666666666666666,
+      "context_precision": 0.99999999995
+    },
+    {
+      "id": "q19",
+      "question": "Trong hợp đồng kinh doanh bất động sản, những loại hợp đồng nào liên quan đến mua bán hoặc thuê mua nhà ở?",
+      "answer": "Trong hợp đồng kinh doanh bất động sản, các loại hợp đồng liên quan đến mua bán hoặc thuê mua nhà ở bao gồm:\n\n1. Hợp đồng mua bán nhà ở hình thành trong tương lai;\n2. Hợp đồng thuê mua nhà ở hình thành trong tương lai;\n3. Hợp đồng thuê mua nhà ở (không nhất thiết phải hình thành trong tương lai) (Document 3).",
+      "contexts": [
+        "d) Thực hiện nghĩa vụ tài chính đối với Nhà nước theo quy định của pháp luật;\n\nđ) Quyền, nghĩa vụ khác theo hợp đồng.\n\nChương VI\nHỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN\n\nMục 1\nCÁC LOẠI HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN,\nSỬ DỤNG HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN\n\nĐiều 44. Hợp đồng trong kinh doanh bất động sản\n\n1. Các loại hợp đồng kinh doanh bất động sản bao gồm:\n\na) Hợp đồng mua bán, hợp đồng thuê mua nhà ở;\n\nb) Hợp đồng thuê nhà ở;",
+        "trong hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai.",
+        "xây dựng\n\n1.  Hợp  đồng  mua  bán,  thuê  mua  nhà  ở,  công  trình  xây  dựng  được  chuyển\n\nnhượng theo quy định của Luật này bao gồm:\n\na) Hợp đồng mua bán nhà ở hình thành trong tương lai;\n\nb) Hợp đồng thuê mua nhà ở hình thành trong tương lai;\n\nc) Hợp đồng thuê mua công trình xây dựng có sẵn.\n\n2. Quy định về chuyển nhượng hợp đồng kinh doanh bất động sản tại Mục 2\nChương VI của Luật này không áp dụng đối với hợp đồng mua bán, thuê mua nhà\nở xã hội.",
+        "8. Hợp đồng kinh doanh bất động sản là sự thỏa thuận bằng văn bản giữa tổ\nchức, cá nhân kinh doanh bất động sản có đủ điều kiện theo quy định của Luật này\nvới tổ chức, cá nhân khác để: mua bán, cho thuê, cho thuê mua nhà ở, công trình\nxây dựng; chuyển nhượng, cho thuê, cho thuê lại quyền sử dụng đất đã có hạ tầng\nkỹ thuật trong dự án bất động sản; chuyển nhượng toàn bộ hoặc một phần dự án\nbất động sản.",
+        "**Bảng 2: Các loại hợp đồng kinh doanh dịch vụ bất động sản**\n\n|  |  |\n| --- | --- |\n| **Stt** | **Loại Hợp Đồng** |\n| 1 | Hợp đồng dịch vụ sàn giao dịch bất động sản |\n| 2 | Hợp đồng dịch vụ môi giới bất động sản |\n| 3 | Hợp đồng dịch vụ tư vấn bất động sản |\n| 4 | Hợp đồng dịch vụ quản lý bất động sản |\n\n### ***9.2. Bổ sung nội dung chính trong từng loại hợp đồng***\n\n- Bổ sung thêm nội dung chính trong Hợp đồng mua bán, cho thuê, cho thuê mua nhà, công trình xây dựng về:"
+      ],
+      "ground_truth": "Theo Luật Kinh doanh bất động sản, các loại hợp đồng kinh doanh bất động sản liên quan đến nhà ở gồm: hợp đồng mua bán nhà ở, hợp đồng thuê mua nhà ở, hợp đồng thuê nhà ở, và hợp đồng chuyển nhượng hợp đồng mua bán/thuê mua nhà ở. Ngoài ra còn có các hợp đồng mua bán, thuê mua, thuê công trình xây dựng phục vụ mục đích du lịch, lưu trú, giáo dục, y tế, thương mại...",
+      "reference_context": "Các loại hợp đồng kinh doanh bất động sản bao gồm: a) Hợp đồng mua bán, hợp đồng thuê mua nhà ở; b) Hợp đồng thuê nhà ở; ... l) Hợp đồng chuyển nhượng hợp đồng mua bán, hợp đồng thuê mua nhà ở, công trình xây dựng.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.5351424303699371,
+      "context_recall": 0.5,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q20",
+      "question": "Nếu bên mua muốn thế chấp căn hộ đã mua cho ngân hàng trước khi được cấp Giấy chứng nhận thì cần làm gì theo hợp đồng mẫu số 1a?",
+      "answer": "Theo hợp đồng mẫu số Ia, nếu bên mua muốn thế chấp căn hộ đã mua cho tổ chức tín dụng trước khi được cấp Giấy chứng nhận, bên mua phải thông báo trước bằng văn bản để bên bán cùng bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng và pháp luật (Document 1).",
+      "contexts": [
+        "**Điều 10. Chuyển giao quyền và nghĩa vụ**\n\n1. Trường hợp Bên mua có nhu cầu thế chấp căn hộ đã mua cho tổ chức tín dụng đang hoạt động tại Việt Nam trước khi Bên mua được cấp Giấy chứng nhận thì Bên mua phải thông báo trước bằng văn bản để Bên bán cùng Bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng, quy định pháp luật.",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "đồng đến trước khi người mua nhà được cấp Giấy chứng nhận đối với nhà ở đó;",
+        "đ) Nhận Giấy chứng nhận sau khi đã thanh toán đủ 100% tiền mua căn hộ và các loại thuế, phí, lệ phí liên quan đến căn hộ mua theo thỏa thuận trong hợp đồng này và theo quy định của pháp luật;\n\ne) Yêu cầu Bên bán hoàn thành việc xây dựng các công trình hạ tầng kỹ thuật và hạ tầng xã hội theo đúng nội dung, tiến độ dự án đã được phê duyệt;",
+        "8. Các thỏa thuận khác của hai bên *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội)*:\n\n**Điều 7. Chuyển giao quyền và nghĩa vụ**\n\n1. Trường hợp Bên mua có nhu cầu thế chấp nhà ở đã mua cho tổ chức tín dụng đang hoạt động tại Việt Nam trước khi Bên mua được cấp Giấy chứng nhận thì Bên mua phải thông báo trước bằng văn bản để Bên bán cùng Bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng."
+      ],
+      "ground_truth": "Bên mua phải thông báo trước bằng văn bản cho bên bán để hai bên cùng phối hợp thực hiện các thủ tục cần thiết theo quy định của tổ chức tín dụng và quy định pháp luật liên quan.",
+      "reference_context": "Trường hợp Bên mua có nhu cầu thế chấp căn hộ đã mua cho tổ chức tín dụng đang hoạt động tại Việt Nam trước khi Bên mua được cấp Giấy chứng nhận thì Bên mua phải thông báo trước bằng văn bản để Bên bán cùng Bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng, quy định pháp luật.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.56552707483418,
+      "context_recall": 1.0,
+      "context_precision": 0.699999999965
+    }
+  ],
+  "config_b_hybrid": [
+    {
+      "id": "q01",
+      "question": "Hợp đồng mua bán căn hộ chung cư giữa hai cá nhân có bắt buộc phải công chứng hoặc chứng thực không?",
+      "answer": "Hợp đồng mua bán căn hộ chung cư giữa hai cá nhân bắt buộc phải công chứng hoặc chứng thực. Điều này được nêu rõ trong tài liệu rằng \"công chứng là bắt buộc\" trong các giao dịch bất động sản (Document 4).",
+      "contexts": [
+        "Hợp đồng mua bán nhà bao gồm các điều khoản về thông tin nhà ở và thửa đất, quyền và nghĩa vụ của các bên, phương thức giải quyết tranh chấp, cam kết của các bên. Khi mua bán nhà các bên bắt buộc phải công chứng hoặc chứng thực hợp đồng.\n\nMục lục bài viết\n[Ẩn]",
+        "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n1 Ghi các căn cứ liên quan đến việc mua bán, cho Bên mua căn hộ chung cư. Trường hợp Nhà nước có sửa đổi, thay thế các văn bản pháp luật ghi tại phần căn cứ của hợp đồng này thì bên bán phải ghi lại theo số, tên văn bản mới đã thay đổi.\n\n2Ghi tên doanh nghiệp, cá nhân bán, cho Bên mua căn hộ; nếu là cá nhân thì không cần có các nội dung về Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đăng ký đầu tư, người đại diện pháp luật của doanh nghiệp.",
+        "3 Nếu là tổ chức thì ghi các thông tin về tổ chức; nếu là cá nhân thì ghi các thông tin về cá nhân, nếu có nhiều người mua là cá nhân cùng đứng tên trong hợp đồng thì tại mục này phải ghi đầy đủ thông tin về những người cùng mua căn hộ chung cư; không cần có các nội dung về Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đăng ký đầu tư, người đại diện pháp luật của doanh nghiệp.\n\n4 Nếu là tổ chức thì ghi số Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký đầu tư.",
+        ". Có 2 trường hợp: Trường hợp thứ nhất là giữa người mua và người bán, họ sẽ thông qua một văn bản thỏa thuận có công chứng; trường hợp thứ hai là Nhà nước có thể giao cho một cá nhân nào đó quyền sử dụng đất thì cũng đòi hỏi phải có một văn bản viết và được công chứng. Do đó, công chứng là bắt buộc\".",
+        "- Điều kiện quy định tại điểm b và điểm c khoản này không áp dụng đối với trường hợp mua bán, thuê mua nhà ở hình thành trong tương lai.\n\n![hợp đồng mua bán nhà gắn liền với đất](data:image/gif;base64... \"hợp đồng mua bán nhà gắn liền với đất\")***Hợp đồng mua bán nhà phải công chứng hoặc chứng thực (Ảnh minh họa)***\n\n## **3.Hợp đồng chuyển nhượng phải công chứng hoặc chứng thực**"
+      ],
+      "ground_truth": "Có. Theo khoản 5 Điều 44 Luật Kinh doanh bất động sản, hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng mà các bên tham gia giao dịch là cá nhân thì phải công chứng hoặc chứng thực.",
+      "reference_context": "Hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng mà các bên tham gia giao dịch là cá nhân phải công chứng hoặc chứng thực.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5317601356144158,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q02",
+      "question": "Nếu ít nhất một bên trong hợp đồng mua bán căn hộ là doanh nghiệp kinh doanh bất động sản thì việc công chứng hợp đồng có bắt buộc không?",
+      "answer": "Không thể xác minh câu hỏi này từ các tài liệu đã cung cấp.",
+      "contexts": [
+        "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n1 Ghi các căn cứ liên quan đến việc mua bán, cho Bên mua căn hộ chung cư. Trường hợp Nhà nước có sửa đổi, thay thế các văn bản pháp luật ghi tại phần căn cứ của hợp đồng này thì bên bán phải ghi lại theo số, tên văn bản mới đã thay đổi.\n\n2Ghi tên doanh nghiệp, cá nhân bán, cho Bên mua căn hộ; nếu là cá nhân thì không cần có các nội dung về Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đăng ký đầu tư, người đại diện pháp luật của doanh nghiệp.",
+        "d) Hợp đồng dịch vụ quản lý bất động sản.\n\n3. Hợp đồng kinh doanh bất động sản được ký kết khi bất động sản đã có đủ\nđiều  kiện  đưa  vào  kinh  doanh,  dự  án  bất  động  sản  đã  có  đủ  điều  kiện  chuyển\nnhượng theo quy định của Luật này.\n\n4. Hợp đồng kinh doanh bất động sản, hợp đồng kinh doanh dịch vụ bất động\nsản mà ít nhất một bên tham gia giao dịch là doanh nghiệp kinh doanh bất động\nsản được công chứng hoặc chứng thực theo yêu cầu của các bên.",
+        "![Mua bán căn hộ hình thành trong tương lai sẽ ràng buộc nhiều quy định khi Luật Kinh doanh bất động sản 2023 có hiệu lực vào 1-8 tới đây - Ảnh: NGỌC HIỂN](https://cdn.tuoitre.vn/thumb_w/730/471584752817336320/2024/7/21/base64-1721558097451259707143.jpeg)\n\nMua bán căn hộ hình thành trong tương lai sẽ ràng buộc nhiều quy định khi Luật Kinh doanh bất động sản 2023 có hiệu lực vào 1-8 tới đây - Ảnh: NGỌC HIỂN\n\n## **Doanh nghiệp bất động sản chỉ được thu tiền đặt cọc không quá 5%**",
+        "Với những quy định như vậy thì cần tiến hành rà soát, nghiên cứu kỹ đối với quy định về công chứng, chứng thực hợp đồng trong kinh doanh BĐS, vì quy định như Điều 45, \"Việc công chứng, chứng thực hợp đồng do các bên thỏa thuận\" có thể hiểu là có những hợp đồng kinh doanh BĐS không cần thực hiện công chứng, chứng thực",
+        "09/05/2023\n\n19:12\n\n!['Tấm khiên' bảo vệ người dân và doanh nghiệp trong kinh doanh bất động sản - Ảnh 1.](https://bcp.cdnchinhphu.vn/thumb_w/777/334894974524682240/2023/5/9/ts-tran-minh-son-108-1683630621627376504728.jpg)\n\nTS. Trần Minh Sơn (đứng): Công chứng đóng vai trò là thiết chế quản lý các hợp đồng, giao dịch về BĐS, bảo đảm tính an toàn cho các giao dịch - Ảnh: VGP/LS\n\n### **Có nên quy định công chứng hợp đồng kinh doanh BĐS ‘tự nguyện’ hay không?**"
+      ],
+      "ground_truth": "Không bắt buộc, chỉ công chứng hoặc chứng thực theo yêu cầu của các bên. Theo khoản 4 Điều 44 Luật Kinh doanh bất động sản, hợp đồng kinh doanh bất động sản mà ít nhất một bên tham gia là doanh nghiệp kinh doanh bất động sản được công chứng hoặc chứng thực theo yêu cầu của các bên, khác với trường hợp cả hai bên đều là cá nhân (bắt buộc công chứng/chứng thực).",
+      "reference_context": "Hợp đồng kinh doanh bất động sản, hợp đồng kinh doanh dịch vụ bất động sản mà ít nhất một bên tham gia giao dịch là doanh nghiệp kinh doanh bất động sản được công chứng hoặc chứng thực theo yêu cầu của các bên.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 1.0,
+      "context_precision": 0.5333333333155555
+    },
+    {
+      "id": "q03",
+      "question": "Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác định như thế nào?",
+      "answer": "Thời điểm có hiệu lực của hợp đồng mua bán căn hộ được xác định theo thỏa thuận giữa các bên trong hợp đồng. Tuy nhiên, không có thông tin cụ thể trong các tài liệu đã cung cấp để xác minh cách xác định thời điểm có hiệu lực của hợp đồng này.",
+      "contexts": [
+        "![Mua bán căn hộ hình thành trong tương lai sẽ ràng buộc nhiều quy định khi Luật Kinh doanh bất động sản 2023 có hiệu lực vào 1-8 tới đây - Ảnh: NGỌC HIỂN](https://cdn.tuoitre.vn/thumb_w/730/471584752817336320/2024/7/21/base64-1721558097451259707143.jpeg)\n\nMua bán căn hộ hình thành trong tương lai sẽ ràng buộc nhiều quy định khi Luật Kinh doanh bất động sản 2023 có hiệu lực vào 1-8 tới đây - Ảnh: NGỌC HIỂN\n\n## **Doanh nghiệp bất động sản chỉ được thu tiền đặt cọc không quá 5%**",
+        "Trường hợp Bên mua hoặc người được Bên mua ủy quyền hợp pháp không đến nhận bàn giao căn hộ theo thông báo của Bên bán trong thời hạn ………… ngày hoặc đến kiểm tra nhưng không nhận bàn giao căn hộ mà không có lý do chính đáng (trừ trường hợp thuộc diện thỏa thuận tại điểm g khoản 1 Điều 6 của hợp đồng này) thì kể từ ngày đến hạn bàn giao căn hộ theo thông báo của Bên bán được xem như Bên mua đã đồng ý, chính thức nhận bàn giao căn hộ theo thực tế và Bên bán đã thực hiện xong trách nhiệm bàn giao",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "Các từ ngữ khác do các bên thỏa thuận: ……………………………………………………\n\n**Điều 2. Đặc điểm của căn hộ mua bán**\n\nBên bán đồng ý bán và Bên mua đồng ý mua căn hộ chung cư với đặc điểm như sau:\n\n1. Đặc điểm của căn hộ mua bán:\n\na) Căn hộ số: ………… tại tầng (tầng có căn hộ): …………, thuộc nhà chung cư ………… đường/phố (nếu có), thuộc phường/xã …………,tỉnh/thành phố ……………………",
+        "c) Số tiền mua căn hộ theo hợp đồng này là hợp pháp, không có tranh chấp với bên thứ ba. Bên bán sẽ không phải chịu trách nhiệm đối với việc tranh chấp khoản tiền mà Bên mua đã thanh toán cho Bên bán theo hợp đồng này. Trong trường hợp có tranh chấp về khoản tiền mua căn hộ này thì hợp đồng này vẫn có hiệu lực đối với hai bên;\n\nd) Cung cấp các giấy tờ cần thiết khi Bên bán yêu cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên mua."
+      ],
+      "ground_truth": "Thời điểm có hiệu lực của hợp đồng là thời điểm bên sau cùng ký vào hợp đồng hoặc bằng hình thức chấp nhận khác được thể hiện trên hợp đồng, trừ khi các bên có thỏa thuận khác. Nếu hợp đồng có công chứng hoặc chứng thực thì thời điểm có hiệu lực là thời điểm văn bản công chứng, chứng thực có hiệu lực theo pháp luật về công chứng, chứng thực.",
+      "reference_context": "Thời điểm có hiệu lực của hợp đồng là thời điểm bên sau cùng ký vào hợp đồng hoặc bằng hình thức chấp nhận khác được thể hiện trên hợp đồng, trừ trường hợp các bên có thỏa thuận khác. Trường hợp hợp đồng có công chứng hoặc chứng thực thì thời điểm có hiệu lực của hợp đồng là thời điểm văn bản công chứng, chứng thực có hiệu lực theo quy định của pháp luật về công chứng, chứng thực.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "q04",
+      "question": "Khi mua căn hộ chung cư hình thành trong tương lai, lần thanh toán đầu tiên tối đa được thu bao nhiêu phần trăm giá trị hợp đồng?",
+      "answer": "Khi mua căn hộ chung cư hình thành trong tương lai, lần thanh toán đầu tiên tối đa được thu không quá 30% giá trị hợp đồng, bao gồm cả tiền đặt cọc (Document 1, Document 3).",
+      "contexts": [
+        "Luật mới quy định rõ, việc thanh toán trong mua bán nhà ở, công trình xây dựng hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng ***bao gồm cả tiền đặt cọc*** (hiện nay chỉ quy định lần đầu thanh toán không quá 30% giá trị hợp đồng).\n\nĐồng thời, giảm tỷ lệ thanh toán khi thuê mua nhà ở hình thành trong tương lai ***xuống còn 50% thay vì 70% như quy định trước đây***. Cụ thể:",
+        "*Việc thanh toán trong thuê mua nhà ở hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng đến khi bàn giao nhà ở cho bên thuê mua nhưng tổng số tiền thanh toán trước cho bên cho thuê mua không quá 50% giá trị hợp đồng thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng",
+        "- Việc thanh toán trong thuê mua nhà ở, công trình xây dựng hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc;\n\n- Những lần tiếp theo phải phù hợp với tiến độ xây dựng đến khi bàn giao nhà ở, công trình xây dựng cho khách hàng thì số tiền thanh toán trước cho bên cho thuê mua ≤50% giá trị nhà ở, công trình xây dựng thuê mua (hiện nay là 70%).\n\n## **3. Cá nhân kinh doanh bất động sản quy mô nhỏ không phải thành lập công ty**",
+        "Việc mua bán/thuê mua nhà ở hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 Luật Kinh doanh bất động sản 2023 *(Việc thanh toán trong mua bán nhà ở hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh"
+      ],
+      "ground_truth": "Lần thanh toán đầu tiên không được quá 30% giá trị hợp đồng, tính cả tiền đặt cọc.",
+      "reference_context": "Việc thanh toán trong mua bán nhà ở, công trình xây dựng, phần diện tích sàn xây dựng trong công trình xây dựng hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5717954032434177,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q05",
+      "question": "Trước khi bên mua được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản, bên bán căn hộ hình thành trong tương lai được thu tối đa bao nhiêu phần trăm giá trị hợp đồng?",
+      "answer": "Trước khi bên mua được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản, bên bán căn hộ hình thành trong tương lai không được thu quá 95% giá trị hợp đồng (Document 1, Document 2, Document 4, Document 5).",
+      "contexts": [
+        ". Nếu bên mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán không được thu quá 95% giá trị hợp đồng; giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai cho bên mua).*",
+        "*Nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng; giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai cho bên mua, thuê mua**)**.*",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh",
+        "3. Nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng\nđất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì\nbên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng; giá trị còn lại\ncủa hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy\nchứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy\nđịnh của pháp luật về đất đai cho bên mua, thuê mua.",
+        "Ngoài ra, luật quy định nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng;\n\nGiá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai cho bên mua, thuê mua."
+      ],
+      "ground_truth": "Bên bán không được thu quá 95% giá trị hợp đồng nếu bên mua chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. Phần giá trị còn lại chỉ được thanh toán sau khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận cho bên mua.",
+      "reference_context": "Nếu bên mua, thuê mua chưa được cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai thì bên bán, cho thuê mua không được thu quá 95% giá trị hợp đồng; giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp giấy chứng nhận.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5306871571886536,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q06",
+      "question": "Chủ đầu tư bán căn hộ chung cư hình thành trong tương lai có bắt buộc phải có bảo lãnh ngân hàng không?",
+      "answer": "Chủ đầu tư bán căn hộ chung cư hình thành trong tương lai phải được ngân hàng thương mại trong nước hoặc chi nhánh ngân hàng nước ngoài chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của mình đối với bên mua, thuê mua nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư (Document 2).",
+      "contexts": [
+        "7. Hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai đã được ngân\nhàng bảo lãnh phát hành chứng thư bảo lãnh nghĩa vụ tài chính của chủ đầu tư đối\nvới khách hàng trước ngày Luật này có hiệu lực thi hành thì không bắt buộc phải\nthực hiện việc bảo lãnh theo quy định của Luật này.\n\n\fCÔNG BÁO/Số 43 + 44/Ngày 08-01-2024\n\n89",
+        "1. Chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành\ntrong tương lai phải được ngân hàng thương mại trong nước, chi nhánh ngân hàng\nnước ngoài  đang hoạt động hợp pháp tại Việt Nam chấp thuận cấp bảo lãnh cho\nnghĩa vụ tài chính của chủ đầu tư đối với bên mua, thuê mua nhà ở khi chủ đầu tư\nkhông bàn giao nhà ở theo cam kết trong hợp đồng mua bán, thuê mua nhà ở hình\nthành trong tương lai (sau đây gọi chung là ngân hàng bảo lãnh).",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "4. Căn cứ hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai giữa\nchủ đầu tư và bên mua, thuê mua do chủ đầu tư cung cấp, ngân hàng bảo lãnh có\ntrách nhiệm phát hành thư bảo lãnh cho bên mua, thuê mua đã ký hợp đồng mua\nbán, thuê mua nhà ở hình thành trong tương lai với chủ đầu tư theo quy định của\npháp luật về bảo lãnh ngân hàng và gửi cho chủ đầu tư để chủ đầu tư cung cấp cho\ntừng bên mua, thuê mua đã ký hợp đồng mua bán, thuê mua nhà ở hình thành trong\ntương lai.",
+        "Điều 26 quy định về bảo lãnh trong bán, cho thuê mua nhà ở hình thành trong tương lai, trong đó bắt buộc chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành trong tương lai phải được ngân hàng thương mại trong nước, chi nhánh ngân hàng nước ngoài đang hoạt động hợp pháp tại Việt Nam chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với bên mua, thuê mua nhà ở khi chủ đầu tư không bàn giao nhà ở theo cam kết trong hợp đồng mua bán, thuê mua nhà ở hình thành"
+      ],
+      "ground_truth": "Về nguyên tắc có: trước khi bán nhà ở hình thành trong tương lai, chủ đầu tư phải được ngân hàng thương mại chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của mình đối với bên mua trong trường hợp không bàn giao nhà đúng cam kết. Tuy nhiên bên mua có quyền lựa chọn không có bảo lãnh; khi đó việc bảo lãnh không bắt buộc áp dụng cho hợp đồng của bên mua đó, và điều này phải được thỏa thuận bằng văn bản khi ký hợp đồng.",
+      "reference_context": "Chủ đầu tư dự án bất động sản trước khi bán, cho thuê mua nhà ở hình thành trong tương lai phải được ngân hàng thương mại... chấp thuận cấp bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với bên mua... Khi ký kết hợp đồng, bên mua được lựa chọn việc có hoặc không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.4397291536586499,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q07",
+      "question": "Chủ đầu tư phải cung cấp thư bảo lãnh cho bên mua căn hộ hình thành trong tương lai trong thời hạn bao lâu kể từ ngày ký hợp đồng?",
+      "answer": "Chủ đầu tư phải cung cấp thư bảo lãnh cho bên mua căn hộ hình thành trong tương lai trong thời hạn 10 ngày làm việc kể từ ngày ký hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai hoặc thời hạn khác do các bên thỏa thuận trong hợp đồng (Document 1).",
+      "contexts": [
+        "6. Chủ đầu tư cung cấp thư bảo lãnh cho bên mua, thuê mua trong thời hạn 10 ngày\nlàm việc kể từ ngày ký hợp đồng mua bán, thuê mua nhà ở hình thành trong tương\nlai hoặc thời hạn khác do các bên thỏa thuận trong hợp đồng mua bán, thuê mua\nnhà ở hình thành trong tương lai. Chủ đầu tư chỉ được nhận tiền thanh toán của bên\nmua, thuê mua theo hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai\nsau khi đã cung cấp cho bên mua, thuê mua và bên mua, thuê mua đã nhận được",
+        "4. Căn cứ hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai giữa\nchủ đầu tư và bên mua, thuê mua do chủ đầu tư cung cấp, ngân hàng bảo lãnh có\ntrách nhiệm phát hành thư bảo lãnh cho bên mua, thuê mua đã ký hợp đồng mua\nbán, thuê mua nhà ở hình thành trong tương lai với chủ đầu tư theo quy định của\npháp luật về bảo lãnh ngân hàng và gửi cho chủ đầu tư để chủ đầu tư cung cấp cho\ntừng bên mua, thuê mua đã ký hợp đồng mua bán, thuê mua nhà ở hình thành trong\ntương lai.",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "Thỏa thuận cấp bảo lãnh ký giữa ngân hàng bảo lãnh với chủ đầu tư dự án và\nthư bảo lãnh của ngân hàng bảo lãnh phát hành cho bên mua, thuê mua nhà ở hình\nthành trong tương lai phải ghi cụ thể về thời hạn hiệu lực.",
+        "Căn cứ vào thỏa thuận cấp bảo lãnh đã ký, ngân hàng bảo lãnh gửi chủ đầu tư\ndự án bất động sản văn bản cam kết khẳng định sẽ phát hành thư bảo lãnh cho tất\ncả  bên  mua,  thuê  mua  nhà  ở  thuộc  dự  án  được  chấp  thuận  cấp  bảo  lãnh  của  chủ\nđầu tư. Chủ đầu tư có trách nhiệm gửi bản sao văn bản cam kết này cho bên mua,\nthuê mua khi ký kết hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai."
+      ],
+      "ground_truth": "Trong thời hạn 10 ngày làm việc kể từ ngày ký hợp đồng mua bán nhà ở hình thành trong tương lai (hoặc thời hạn khác do các bên thỏa thuận trong hợp đồng). Chủ đầu tư chỉ được nhận tiền thanh toán sau khi bên mua đã nhận được thư bảo lãnh.",
+      "reference_context": "Chủ đầu tư cung cấp thư bảo lãnh cho bên mua, thuê mua trong thời hạn 10 ngày làm việc kể từ ngày ký hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai hoặc thời hạn khác do các bên thỏa thuận. Chủ đầu tư chỉ được nhận tiền thanh toán của bên mua sau khi đã cung cấp cho bên mua và bên mua đã nhận được thư bảo lãnh.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.429903701301942,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q08",
+      "question": "Nhà ở, công trình xây dựng có sẵn (không phải hình thành trong tương lai) cần đáp ứng điều kiện gì để được đưa vào kinh doanh?",
+      "answer": "Nhà ở, công trình xây dựng có sẵn cần đáp ứng các điều kiện quy định tại Điều 14 của Luật Kinh doanh bất động sản (Luật số 29/2023/QH15) để được đưa vào kinh doanh. Cụ thể, các điều kiện này bao gồm việc nhà ở, công trình xây dựng phải đã hoàn thành việc xây dựng và đã được nghiệm thu đưa vào sử dụng theo quy định của pháp luật về xây dựng (Document 3).",
+      "contexts": [
+        "Điều 14. Điều kiện của nhà ở, công trình xây dựng có sẵn đưa vào kinh doanh\n\n1. Nhà ở, công trình xây dựng đưa vào kinh doanh phải có đủ các điều kiện\n\nsau đây:",
+        "## **11. Bổ sung chi tiết điều kiện từng loại bất động sản được đưa vào kinh doanh**\n\nBổ sung chi tiết các điều kiện,trong đó tách rõ từng điều khoản quy định về điều kiện cho từng loại bất động sản cụ thể:\n\nĐiều 12. Nhà ở, công trình xây dựng có sẵn được đưa vào kinh doanh\n\nĐiều 14. Điều kiện của nhà ở, công trình xây dựng có sẵn đưa vào kinh doanh\n\nĐiều 24. Điều kiện đối với nhà ở, công trình xây dựng hình thành trong tương lai được đưa vào kinh doanh",
+        "4. Nhà ở, công trình xây dựng có sẵn là nhà ở, công trình xây dựng đã hoàn\nthành việc xây dựng và đã được nghiệm thu đưa vào sử dụng theo quy định của\npháp luật về xây dựng.\n\n\fCÔNG BÁO/Số 43 + 44/Ngày 08-01-2024\n\n23\n\n5. Nhà ở, công trình xây dựng hình thành trong tương lai là nhà ở, công trình\nxây dựng đang trong quá trình đầu tư xây dựng hoặc chưa được nghiệm thu đưa\nvào sử dụng theo quy định của pháp luật về xây dựng.",
+        "Chương II\nKINH DOANH NHÀ Ở, CÔNG TRÌNH XÂY DỰNG CÓ SẴN\n\nĐiều 12. Nhà ở, công trình xây dựng có sẵn được đưa vào kinh doanh\n\n1. Các loại nhà ở có sẵn, trừ các loại nhà ở thuộc tài sản công theo quy định\n\ncủa Luật Nhà ở.\n\n2. Các loại công trình xây dựng có sẵn quy định tại khoản 2 Điều 5 của Luật này.\n\n3. Phần diện tích sàn xây dựng trong công trình xây dựng có sẵn quy định tại\n\nkhoản 3 Điều 5 của Luật này.\n\nĐiều 13. Nguyên tắc kinh doanh nhà ở, công trình xây dựng có sẵn",
+        "Điều 30. Điều kiện đối với đất đã có hạ tầng kỹ thuật trong dự án bất động sản được chuyển nhượng quyền sử dụng đất cho cá nhân tự xây dựng nhà ở\n\n## **12. Các loại công trình có sẵn, hình thành trong tương lai được đưa vào kinh doanh**\n\nLuật Kinh doanh bất động sản 2023 đã bổ sung, quy định cụ thể loại công trình xây dựng có sẵn và công trình xây dựng hình thành trong tương lai được đưa vào kinh doanh gồm:"
+      ],
+      "ground_truth": "Phải có giấy chứng nhận quyền sở hữu nhà ở/quyền sử dụng đất hợp lệ; không thuộc diện đang có tranh chấp về quyền sử dụng đất hoặc quyền sở hữu chưa được giải quyết; không bị kê biên để bảo đảm thi hành án; không thuộc trường hợp pháp luật cấm giao dịch; không đang bị đình chỉ hoặc tạm đình chỉ giao dịch; và đã được công khai thông tin theo quy định.",
+      "reference_context": "Nhà ở, công trình xây dựng đưa vào kinh doanh phải có đủ các điều kiện: có Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở...; không thuộc trường hợp đang có tranh chấp...; không bị kê biên để bảo đảm thi hành án; không thuộc trường hợp luật cấm giao dịch; không thuộc trường hợp đang trong thời gian bị đình chỉ, tạm đình chỉ giao dịch; đã được công khai thông tin theo quy định tại Điều 6 của Luật này.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.49749106652437664,
+      "context_recall": 0.5,
+      "context_precision": 0.999999999975
+    },
+    {
+      "id": "q09",
+      "question": "Bên mua căn hộ có được chuyển nhượng lại hợp đồng mua bán căn hộ hình thành trong tương lai cho người khác không, và điều kiện là gì?",
+      "answer": "Bên mua căn hộ chỉ được chuyển nhượng hợp đồng mua bán căn hộ cho bên thứ ba khi có đủ các điều kiện theo quy định của pháp luật về kinh doanh bất động sản. Các bên có thể thỏa thuận và ghi rõ các điều kiện chuyển nhượng hợp đồng mua bán căn hộ trong hợp đồng này *(Document 1, Document 3)*.",
+      "contexts": [
+        "3. Hai bên thống nhất rằng, Bên mua chỉ được chuyển nhượng hợp đồng mua bán hộ cho bên thứ ba khi có đủ các điều kiện theo quy định của pháp luật về kinh doanh bất động sản *(Các bên có thể thỏa thuận, ghi rõ các điều kiện chuyển nhượng hợp đồng mua bán căn hộ: ………………).*",
+        "4. Trong cả hai trường hợp nêu tại khoản 1 và khoản 2 Điều này, người mua lại nhà ở hoặc bên nhận chuyển nhượng hợp đồng mua bán căn hộ đều được hưởng các quyền và phải thực hiện các nghĩa vụ của Bên mua theo thỏa thuận trong hợp đồng này và trong Bản nội quy nhà chung cư.\n\n5. Các thỏa thuận khác *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội):*……………………………………………………\n\n**Điều 11. Phần sở hữu riêng, phần sở hữu chung và việc sử dụng căn hộ trong nhà chung cư**",
+        "3. Hai bên thống nhất rằng, Bên mua/bên thuê mua chỉ được chuyển nhượng hợp đồng mua bán/thuê mua cho bên thứ ba khi có đủ các điều kiện theo quy định của pháp luật về kinh doanh bất động sản *(Các bên có thể thỏa thuận, ghi rõ các điều kiện chuyển nhượng hợp đồng mua căn hộ: ………).*",
+        "*Trong trường hợp này, Bên bán phải hoàn trả lại toàn bộ số tiền mà Bên mua đã thanh toán (các bên thỏa thuận có hoặc không tính lãi suất) và bồi thường cho Bên mua khoản tiền phạt vi phạm hợp đồng tương đương với ………% (………phần trăm) tổng giá trị hợp đồng này (chưa tính thuế).*\n\n3. Trường hợp đến hạn bàn giao căn hộ theo thông báo của Bên bán và căn hộ đã đủ điều kiện bàn giao theo thỏa thuận trong hợp đồng này mà Bên mua không nhận bàn giao thì: *(các bên thỏa thuận cụ thể)* …………………………………………",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh"
+      ],
+      "ground_truth": "Có, bên mua nhà ở hình thành trong tương lai được quyền chuyển nhượng hợp đồng mua bán cho bên thứ ba, với điều kiện: hồ sơ đề nghị cấp giấy chứng nhận quyền sử dụng đất/quyền sở hữu tài sản chưa được nộp cho cơ quan nhà nước; hợp đồng không có tranh chấp đang được thụ lý giải quyết (trừ tranh chấp đã có bản án/quyết định có hiệu lực); căn hộ không bị kê biên hoặc thế chấp để bảo đảm nghĩa vụ (trừ khi bên nhận thế chấp đồng ý); và hợp đồng gốc được xác lập hợp pháp. Việc chuyển nhượng phải thực hiện với toàn bộ hợp đồng và bên bán không được thu thêm phí chuyển nhượng.",
+      "reference_context": "Việc chuyển nhượng hợp đồng mua bán, thuê mua nhà ở, công trình xây dựng phải bảo đảm các điều kiện: thuộc diện chưa nộp hồ sơ đề nghị cấp giấy chứng nhận...; hợp đồng không có tranh chấp đang thụ lý giải quyết...; nhà ở không thuộc diện bị kê biên, thế chấp...; có hợp đồng mua bán được xác lập theo quy định của pháp luật.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5816191339908415,
+      "context_recall": 1.0,
+      "context_precision": 0.94999999997625
+    },
+    {
+      "id": "q10",
+      "question": "Thời điểm xác lập quyền sở hữu nhà ở đối với trường hợp mua bán nhà ở thông thường (không phải mua từ chủ đầu tư dự án) được xác định khi nào?",
+      "answer": "Thời điểm xác lập quyền sở hữu nhà ở đối với trường hợp mua bán nhà ở thông thường (không phải mua từ chủ đầu tư dự án) được xác định là thời điểm bên mua đã thanh toán đủ tiền mua và đã nhận bàn giao nhà ở, trừ trường hợp các bên có thỏa thuận khác (Document 1).",
+      "contexts": [
+        "2. Trường hợp mua bán, thuê mua nhà ở mà không thuộc trường hợp quy định\ntại khoản 4 Điều này thì thời điểm xác lập quyền sở hữu nhà ở là thời điểm bên\nmua, bên thuê mua đã thanh toán đủ tiền mua, tiền thuê mua và đã nhận bàn giao\nnhà ở, trừ trường hợp các bên có thỏa thuận khác.",
+        "14\n\nCÔNG BÁO/Số 37 + 38/Ngày 08-01-2024\n\n3. Người sử dụng nhà ở không phải là chủ sở hữu nhà ở phải thực hiện nghĩa\nvụ trong việc quản lý, sử dụng nhà ở theo thỏa thuận với chủ sở hữu nhà ở, quy\nđịnh của Luật này và quy định khác của pháp luật có liên quan.\n\nĐiều 12. Thời điểm xác lập quyền sở hữu nhà ở\n\n1. Trường hợp trực tiếp đầu tư xây dựng nhà ở thì thời điểm xác lập quyền sở\nhữu nhà ở là thời điểm đã hoàn thành việc xây dựng nhà ở theo quy định của pháp\nluật về xây dựng.",
+        "2. Trường hợp mua bán nhà ở có thời hạn theo quy định tại khoản 1 Điều 165\ncủa Luật này thì bên mua nhà ở được cấp Giấy chứng nhận trong thời hạn sở hữu\ntheo thỏa thuận; khi hết thời hạn sở hữu nhà ở thì quyền sở hữu nhà ở được chuyển\nlại cho chủ sở hữu đã bán nhà ở theo thỏa thuận trong hợp đồng; trường hợp khi\nhết thời hạn sở hữu mà bên bán không nhận lại nhà ở thì giải quyết theo quy định\ntại Điều 166 của Luật này và quy định khác của pháp luật có liên quan.",
+        "5. Bên mua, thuê mua nhà ở, công trình xây dựng, phần diện tích sàn xây dựng\ntrong công trình xây dựng được xác lập quyền sở hữu đối với nhà ở, công trình xây\ndựng, phần diện tích sàn xây dựng trong công trình xây dựng đã mua, thuê mua.\nThời  điểm  xác  lập  quyền  sở  hữu  nhà  ở,  công  trình  xây  dựng,  phần  diện  tích  sàn\nxây dựng trong công trình xây dựng đối với bên mua, thuê mua là kể từ thời điểm\nbên mua, thuê mua đã thanh toán đủ tiền mua, tiền thuê mua và đã nhận bàn giao",
+        "3. Trường hợp góp vốn, tặng cho, đổi nhà ở thì thời điểm xác lập quyền sở hữu\nnhà ở là thời điểm bên nhận góp vốn, bên nhận tặng cho, bên nhận đổi đã nhận bàn\ngiao nhà ở từ bên góp vốn, bên tặng cho, bên đổi nhà ở, trừ trường hợp các bên có\nthỏa thuận khác.\n\n4. Trường hợp mua bán, thuê mua nhà ở giữa chủ đầu tư dự án đầu tư xây dựng\nnhà ở với người mua, người thuê mua thì thời điểm xác lập quyền sở hữu nhà ở\nđược thực hiện theo quy định của pháp luật về kinh doanh bất động sản."
+      ],
+      "ground_truth": "Thời điểm xác lập quyền sở hữu nhà ở là thời điểm bên mua đã thanh toán đủ tiền mua và đã nhận bàn giao nhà ở, trừ trường hợp các bên có thỏa thuận khác.",
+      "reference_context": "Trường hợp mua bán, thuê mua nhà ở mà không thuộc trường hợp quy định tại khoản 4 Điều này thì thời điểm xác lập quyền sở hữu nhà ở là thời điểm bên mua, bên thuê mua đã thanh toán đủ tiền mua, tiền thuê mua và đã nhận bàn giao nhà ở, trừ trường hợp các bên có thỏa thuận khác.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.5422766474201619,
+      "context_recall": 1.0,
+      "context_precision": 0.6999999999766667
+    },
+    {
+      "id": "q11",
+      "question": "Diện tích căn hộ ghi trong hợp đồng mua bán căn hộ chung cư (mẫu số 1a) được tính theo cách nào?",
+      "answer": "Diện tích căn hộ ghi trong hợp đồng mua bán căn hộ chung cư (mẫu số 1a) được tính theo kích thước thông thủy, theo quy định tại khoản 6 Điều 1 của hợp đồng này (Document 5).",
+      "contexts": [
+        "Trong biên bản bàn giao căn hộ hoặc trong phụ lục của hợp đồng, hai bên nhất trí sẽ ghi rõ diện tích sử dụng thực tế khi bàn giao căn hộ, diện tích sử dụng chênh lệch so với diện tích ghi trong hợp đồng mua bán đã ký (nếu có). Biên bản bàn giao căn hộ và phụ lục của hợp đồng mua bán căn hộ là một bộ phận không thể tách rời của hợp đồng này. Diện tích căn hộ được ghi vào Giấy chứng nhận cấp cho Bên mua được xác định theo diện tích sử dụng thực tế khi bàn giao căn hộ;",
+        "Hai bên nhất trí rằng, diện tích sử dụng ghi tại điểm này chỉ là tạm tính và có thể tăng lên hoặc giảm đi theo thực tế đo đạc tại thời điểm bàn giao căn hộ. Bên mua có trách nhiệm thanh toán số tiền mua căn hộ cho Bên bán theo diện tích thực tế khi bàn giao căn hộ; trong trường hợp diện tích sử dụng thực tế chênh lệch cao hơn hoặc thấp hơn ………… % (………… phần trăm) so với diện tích ghi trong hợp đồng này thì hai bên không phải điều chỉnh lại giá bán/giá cho Bên mua căn hộ",
+        "e) Phần diện tích khác được mua bán cùng với căn hộ (như chỗ để xe, diện tích sàn thương mại, dịch vụ, ………): ………… *(trường hợp các bên có thỏa thuận mua bán các phần diện tích khác trong nhà chung cư gắn với việc bán căn hộ tại hợp đồng này thì các bên có thể thỏa thuận, ghi nhận chi tiết các nội dung, thông tin về vị trí, diện tích, công năng sử dụng, giá bán/việc thanh toán, điều kiện sử dụng, bàn giao, đăng ký quyền sở hữu …………………… tại phụ lục của hợp đồng).*",
+        "(nếu có) và các trang thiết bị kỹ thuật sử dụng riêng gắn liền với căn hộ và các phần diện tích khác mà Bên mua sẽ mua từ Bên bán theo thỏa thuận giữa các bên tại hợp đồng này; “phần diện tích khác” là các phần diện tích trong nhà chung cư không nằm trong diện tích sàn xây dựng căn hộ nhưng được bán cùng với căn hộ tại hợp đồng này.",
+        "b) Diện tích sử dụng căn hộ là: …………m2. Diện tích này được tính theo kích thước thông thủy (gọi chung là diện tích thông thủy) theo quy định tại khoản 6 Điều 1 của hợp đồng này và là căn cứ để tính tiền mua căn hộ quy định tại Điều 3 của hợp đồng này;"
+      ],
+      "ground_truth": "Diện tích sử dụng căn hộ được tính theo kích thước thông thủy (diện tích thông thủy), và đây là căn cứ để tính tiền mua căn hộ. Diện tích ghi trong hợp đồng chỉ là tạm tính, có thể thay đổi theo thực tế đo đạc khi bàn giao; hai bên thỏa thuận một tỷ lệ chênh lệch cho phép mà không phải điều chỉnh lại giá, nếu vượt quá tỷ lệ đó thì giá bán được điều chỉnh theo diện tích đo đạc thực tế.",
+      "reference_context": "Diện tích sử dụng căn hộ là ... m2. Diện tích này được tính theo kích thước thông thủy... và là căn cứ để tính tiền mua căn hộ... diện tích sử dụng ghi tại điểm này chỉ là tạm tính và có thể tăng lên hoặc giảm đi theo thực tế đo đạc tại thời điểm bàn giao căn hộ.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5461704401007612,
+      "context_recall": 1.0,
+      "context_precision": 0.8874999999778125
+    },
+    {
+      "id": "q12",
+      "question": "Giá bán căn hộ chung cư theo mẫu hợp đồng số 1a đã bao gồm những khoản gì?",
+      "answer": "Giá bán căn hộ chung cư theo mẫu hợp đồng số 1a đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư (Document 1).",
+      "contexts": [
+        "1. Giá bán/giá Bên mua:\n\na) Giá bán/giá Bên mua căn hộ được tính theo công thức lấy đơn giá 01 m2 diện tích sử dụng căn hộ (x) với tổng diện tích sử dụng căn hộ mua bán; cụ thể là: ………… m2 sử dụng (x) ………… đồng/1 m2 sử dụng =………… đồng. (Bằng chữ: …………).\n\nGiá bán/giá Bên mua căn hộ quy định tại điểm này đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư, trong đó:",
+        "2. Nghĩa vụ của Bên bán:\n\na) Cung cấp cho Bên mua các thông tin chính xác về quy hoạch chi tiết, thiết kế nhà chung cư và thiết kế căn hộ đã được phê duyệt. Cung cấp cho Bên mua kèm theo hợp đồng này 01 bản vẽ thiết kế mặt bằng căn hộ bán, 01 bản vẽ thiết kế mặt bằng tầng nhà có căn hộ bán, 01 bản vẽ thiết kế mặt bằng tòa nhà chung cư có căn hộ bán đã được phê duyệt và các giấy tờ pháp lý có liên quan đến việc mua bán căn hộ;",
+        "Việc mua bán căn hộ hình thành trong tương lai theo phương thức thanh toán nhiều lần thì phải thực hiện theo quy định tại Điều 25 của Luật Kinh doanh bất động sản năm 2023 *(Việc thanh toán trong mua bán căn hộ hình thành trong tương lai được thực hiện nhiều lần, lần đầu không quá 30% giá trị hợp đồng bao gồm cả tiền đặt cọc, những lần tiếp theo phải phù hợp với tiến độ xây dựng nhưng tổng số không quá 70% giá trị hợp đồng khi chưa bàn giao nhà ở cho bên mua; trường hợp bên bán là tổ chức kinh",
+        "3. “Hợp đồng” là hợp đồng mua bán căn hộ chung cư này và toàn bộ các phụ lục, tài liệu đính kèm cũng như mọi sửa đổi, bổ sung bằng văn bản đối với hợp đồng này do các bên lập và ký kết trong quá trình thực hiện hợp đồng này.\n\n4. “Giá bán/giá cho Bên mua căn hộ” là tổng số tiền bán căn hộ được xác định tại Điều 3 của hợp đồng này.",
+        "- Giá bán/giá Bên mua (đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất) là: ……………………………… đồng (Bằng chữ ………………………………)\n\n- Thuế giá trị gia tăng: …………………… đồng; khoản thuế này không tính trên tiền sử dụng đất nộp cho Nhà nước theo quy định của pháp luật. (Bằng chữ ………………………..)\n\n- Kinh phí bảo trì phần sở hữu chung của nhà chung cư bằng 2% giá bán/giá Bên mua căn hộ (kinh phí này được tính trước thuế) là: …………………… đồng.\n\n(Bằng chữ ……………………………………………………………………………..)"
+      ],
+      "ground_truth": "Giá bán/giá bên mua căn hộ đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư (kinh phí bảo trì bằng 2% giá bán, tính trước thuế). Giá này chưa bao gồm lệ phí trước bạ, phí/lệ phí cấp giấy chứng nhận, chi phí kết nối dịch vụ riêng của căn hộ và kinh phí quản lý vận hành hàng tháng.",
+      "reference_context": "Giá bán/giá Bên mua căn hộ quy định tại điểm này đã bao gồm giá trị quyền sử dụng đất, tiền sử dụng đất, thuế giá trị gia tăng và kinh phí bảo trì phần sở hữu chung của nhà chung cư... Kinh phí bảo trì phần sở hữu chung của nhà chung cư bằng 2% giá bán/giá Bên mua căn hộ (kinh phí này được tính trước thuế).",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5689642979337978,
+      "context_recall": 0.5,
+      "context_precision": 0.6999999999766667
+    },
+    {
+      "id": "q13",
+      "question": "Nội dung bảo hành nhà ở đối với căn hộ chung cư theo mẫu hợp đồng số 1a bao gồm những gì?",
+      "answer": "Nội dung bảo hành nhà ở đối với căn hộ chung cư theo mẫu hợp đồng số 1a bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, khắc phục các trường hợp nghiêng, lún, sụt nhà ở (Document 2).",
+      "contexts": [
+        "b) Xây dựng nhà ở và các công trình hạ tầng theo đúng quy hoạch, nội dung hồ sơ dự án và tiến độ đã được phê duyệt, đảm bảo khi bàn giao căn hộ thì Bên mua có thể sử dụng và sinh hoạt bình thường;\n\nc) Đảm bảo chất lượng xây dựng, kiến trúc kỹ thuật và mỹ thuật nhà chung cư theo đúng tiêu chuẩn thiết kế, tiêu chuẩn kỹ thuật hiện hành;\n\nd) Bảo quản căn hộ trong thời gian chưa giao nhà ở cho Bên mua; thực hiện bảo hành căn hộ và nhà chung cư theo quy định tại Điều 9 của hợp đồng này;",
+        "3. Nội dung bảo hành nhà ở (kể cả căn hộ trong nhà chung cư có mục đích sử dụng hỗn hợp) bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, khắc phục các trường hợp nghiêng, lún, sụt nhà ở",
+        "2. Nhà ở được thiết kế, xây dựng theo quy định của Luật này và phải phù hợp\nvới tiêu chuẩn, quy chuẩn xây dựng; đối với căn hộ chung cư thì phải thiết kế, xây\ndựng khép kín, có diện tích sàn căn hộ không thấp hơn diện tích theo quy chuẩn kỹ\nthuật quốc gia về nhà chung cư; đối với khu vực nông thôn, việc xây dựng nhà ở\ncòn  phải  phù  hợp  với  phong  tục,  tập  quán,  kiến  trúc  nhà  ở  nông  thôn  theo  từng\nvùng, miền, phải bao gồm các công trình phụ trợ phục vụ nhu cầu sinh hoạt, sản",
+        "h) Chấp hành các quy định của Quy chế quản lý sử dụng nhà chung cư theo quy định pháp luật và Bản nội quy nhà chung cư đính kèm theo hợp đồng này;\n\ni) Tạo điều kiện thuận lợi cho doanh nghiệp quản lý vận hành trong việc bảo trì, quản lý vận hành nhà chung cư;\n\nk) Sử dụng căn hộ đúng mục đích để ở theo quy định của pháp luật về nhà và theo thỏa thuận trong hợp đồng này;",
+        ". “Bảo hành nhà ở” là việc Bên bán căn hộ chung cư thực hiện trách nhiệm bảo hành căn hộ chung cư theo thỏa thuận trong hợp đồng và quy định của pháp luật để khắc phục, sửa chữa, thay thế các hạng mục được liệt kê cụ thể tại Điều 9 của hợp đồng này khi bị hư hỏng, khiếm khuyết hoặc khi vận hành sử dụng không bình thường mà không phải do lỗi của người sử dụng căn hộ gây ra trong khoảng thời gian bảo hành theo quy định của pháp luật nhà ở, pháp luật xây dựng và theo thỏa thuận trong hợp đồng này."
+      ],
+      "ground_truth": "Bảo hành bao gồm sửa chữa, khắc phục hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp lát trát), các thiết bị gắn liền với nhà ở như hệ thống cửa, cấp chất đốt, đường dây cấp điện sinh hoạt và chiếu sáng, hệ thống cấp thoát nước, và khắc phục các trường hợp nghiêng, lún, sụt nhà ở. Các thiết bị khác gắn với nhà ở được bảo hành theo quy định của nhà sản xuất/nhà phân phối.",
+      "reference_context": "Nội dung bảo hành nhà ở... bao gồm: sửa chữa, khắc phục các hư hỏng về kết cấu chính của nhà ở (dầm, cột, trần sàn, mái, tường, các phần ốp, lát, trát), các thiết bị gắn liền với nhà ở như hệ thống các loại cửa, hệ thống cung cấp chất đốt, đường dây cấp điện sinh hoạt, cấp điện chiếu sáng, hệ thống cấp nước sinh hoạt, thoát nước thải, khắc phục các trường hợp nghiêng, lún, sụt nhà ở.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6244522839077015,
+      "context_recall": 0.5,
+      "context_precision": 0.8666666666377778
+    },
+    {
+      "id": "q14",
+      "question": "Bên bán căn hộ được miễn trách nhiệm bảo hành trong những trường hợp nào?",
+      "answer": "Bên bán không thực hiện bảo hành căn hộ trong các trường hợp được quy định trong hợp đồng, tuy nhiên, thông tin cụ thể về các trường hợp này không được cung cấp trong các tài liệu đã cho. Do đó, tôi không thể xác minh được các trường hợp cụ thể mà Bên bán được miễn trách nhiệm bảo hành.",
+      "contexts": [
+        "Bên bán có trách nhiệm thực hiện bảo hành căn hộ bằng cách thay thế hoặc sửa chữa các điểm bị khuyết tật hoặc thay thế các trang thiết bị cùng loại có chất lượng tương đương hoặc tốt hơn. Việc bảo hành bằng cách thay thế hoặc sửa chữa chỉ do Bên bán hoặc Bên được Bên bán ủy quyền thực hiện.",
+        "**Điều 9. Bảo hành nhà ở**\n\n1. Bên bán có trách nhiệm bảo hành căn hộ đã bán theo đúng quy định theo thỏa thuận trong hợp đồng và quy định của pháp luật về nhà ở, pháp luật khác có liên quan và các quy định sửa đổi, bổ sung của Nhà nước vào từng thời điểm.",
+        "5. Kể từ thời điểm hai bên ký biên bản bàn giao căn hộ, Bên mua được toàn quyền sử dụng căn hộ và chịu mọi trách nhiệm có liên quan đến căn hộ mua, kể cả trường hợp Bên mua có sử dụng hay chưa sử dụng căn hộ này.\n\n6. Các thỏa thuận khác *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội):* ……………………………………………………\n\n**Điều 9. Bảo hành nhà ở**",
+        "5. Căn hộ được bảo hành kể từ khi hoàn thành việc xây dựng và nghiệm thu đưa vào sử dụng với thời hạn theo quy định của pháp luật về xây dựng. Thời gian bảo hành nhà ở được tính từ ngày Bên bán ký biên bản nghiệm thu đưa nhà ở vào sử dụng theo quy định của pháp luật về xây dựng. Cụ thể như sau: …………………… *(ghi thời hạn bảo hành theo quy định pháp luật tương ứng với công trình xây dựng).*\n\n6. Bên bán không thực hiện bảo hành căn hộ trong các trường hợp sau đây:",
+        "4. Bên mua phải kịp thời thông báo bằng văn bản cho Bên bán khi căn hộ có các hư hỏng thuộc diện được bảo hành. Trong thời hạn ………… ngày, kể từ ngày nhận được thông báo của Bên mua, Bên bán có trách nhiệm thực hiện bảo hành các hư hỏng theo đúng thỏa thuận và theo quy định của pháp luật; Bên mua phải tạo điều kiện để Bên bán thực hiện bảo hành căn hộ"
+      ],
+      "ground_truth": "Bên bán không phải bảo hành trong các trường hợp: hao mòn và khấu hao thông thường; hư hỏng do lỗi của bên mua hoặc người sử dụng/bên thứ ba gây ra; hư hỏng do sự kiện bất khả kháng; đã hết thời hạn bảo hành theo thỏa thuận; hoặc các hạng mục không thuộc nội dung bảo hành đã thỏa thuận, bao gồm thiết bị do bên mua tự lắp đặt/sửa chữa mà không có sự đồng ý của bên bán.",
+      "reference_context": "Bên bán không thực hiện bảo hành căn hộ trong các trường hợp sau đây: a) Trường hợp hao mòn và khấu hao thông thường; b) Trường hợp hư hỏng do lỗi của Bên mua hoặc của bất kỳ người sử dụng hoặc của bên thứ ba nào khác gây ra; c) Trường hợp hư hỏng do sự kiện bất khả kháng; d) Trường hợp đã hết thời hạn bảo hành...",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.0,
+      "context_recall": 1.0,
+      "context_precision": 0.6388888888675925
+    },
+    {
+      "id": "q15",
+      "question": "Nếu bên mua căn hộ chậm thanh toán tiền mua theo tiến độ trong hợp đồng thì có thể bị xử lý như thế nào?",
+      "answer": "Nếu bên mua căn hộ chậm thanh toán tiền mua theo tiến độ trong hợp đồng, bên bán có quyền yêu cầu bên mua trả tiền mua căn hộ theo đúng thỏa thuận và sẽ tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán. Việc tính lãi suất chậm thanh toán được quy định cụ thể trong hợp đồng (Document 2).",
+      "contexts": [
+        "*- Nếu quá ………… ngày, kể từ ngày đến hạn phải thanh toán tiền mua căn hộ theo thỏa thuận tại khoản 3 Điều 3 của hợp đồng này mà Bên mua không thực hiện thanh toán thì sẽ bị tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán là: …………% (…………phần trăm) theo lãi suất ………… (các bên thỏa thuận cụ thể % lãi suất/ngày hoặc theo từng tháng và lãi suất có kỳ hạn ………… tháng hoặc không kỳ hạn) do Ngân hàng ………… công bố tại thời điểm thanh toán và được tính bắt đầu từ ngày phải thanh toán đến ngày",
+        "5. Các nội dung thỏa thuận khác (nếu có): ……………………………………………………\n\n**Điều 5. Quyền và nghĩa vụ của Bên bán**\n\n1. Quyền của Bên bán:\n\na) Yêu cầu Bên mua trả tiền mua căn hộ theo đúng thỏa thuận tại Điều 3 của hợp đồng và được tính lãi suất trong trường hợp Bên mua chậm thanh toán theo tiến độ thỏa thuận tại Điều 3 của hợp đồng này. Việc tính lãi suất chậm thanh toán được quy định cụ thể tại khoản 1 Điều 12 của hợp đồng này;",
+        "k) Các nghĩa vụ khác theo thỏa thuận của các bên *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội)**……*\n\n**Điều 11. Trách nhiệm của hai bên và việc xử lý vi phạm hợp đồng**\n\n1. Hai bên thống nhất hình thức, cách thức xử lý vi phạm khi Bên mua/bên thuê mua chậm trễ thanh toán tiền mua/thuê mua nhà ở: ........................................\n\n*(Các bên có thể thỏa thuận các nội dung sau đây:*",
+        "*- Nếu quá ………. ngày, kể từ ngày đến hạn phải thanh toán tiền mua/thuê mua nhà ở theo thỏa thuận tại Điều 3 của hợp đồng này mà Bên mua/bên thuê mua không thực hiện thanh toán thì sẽ bị tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán là: …….% (…..phần trăm) theo lãi suất…… (các bên thỏa thuận cụ thể % lãi suất/ngày hoặc theo từng tháng và lãi suất có kỳ hạn ….tháng hoặc không kỳ hạn) do Ngân hàng ………….",
+        "*- Nếu Bên mua đã thanh toán tiền mua căn hộ theo tiến độ thỏa thuận trong hợp đồng này nhưng quá thời hạn ………… ngày, kể từ ngày Bên bán phải bàn giao căn hộ theo thỏa thuận tại Điều 8 của hợp đồng này mà Bên bán vẫn chưa bàn giao căn hộ cho Bên mua thì Bên bán phải thanh toán cho Bên mua khoản tiền phạt vi phạm với lãi suất là ………% (………phần trăm) (các bên thỏa thuận cụ thể % lãi suất/ngày hoặc theo từng tháng và lãi suất có kỳ hạn ………… tháng hoặc không kỳ hạn) do Ngân hàng ………… công bố tại"
+      ],
+      "ground_truth": "Nếu bên mua chậm thanh toán quá số ngày đã thỏa thuận, bên mua sẽ bị tính lãi suất phạt quá hạn trên số tiền chậm thanh toán, tính từ ngày phải thanh toán đến ngày thực trả. Nếu tổng thời gian chậm thanh toán của tất cả các đợt vượt quá số ngày thỏa thuận, bên bán có quyền đơn phương chấm dứt hợp đồng, được bán lại căn hộ cho khách hàng khác (phải thông báo trước ít nhất 30 ngày) và hoàn trả tiền đã nhận cho bên mua sau khi khấu trừ khoản bồi thường vi phạm hợp đồng theo tỷ lệ phần trăm đã thỏa thuận.",
+      "reference_context": "Nếu quá ... ngày, kể từ ngày đến hạn phải thanh toán tiền mua căn hộ... mà Bên mua không thực hiện thanh toán thì sẽ bị tính lãi suất phạt quá hạn trên tổng số tiền chậm thanh toán... nếu tổng thời gian Bên mua trễ hạn thanh toán... vượt quá ... ngày thì Bên bán có quyền đơn phương chấm dứt hợp đồng... Bên bán được quyền bán căn hộ cho khách hàng khác... nhưng phải thông báo bằng văn bản cho Bên mua biết trước ít nhất 30 ngày.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.5342570598252986,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q16",
+      "question": "Nếu bên bán chậm bàn giao căn hộ so với thời hạn cam kết trong hợp đồng, bên mua có những quyền gì?",
+      "answer": "Nếu bên bán chậm bàn giao căn hộ so với thời hạn cam kết trong hợp đồng, bên mua có quyền tiếp tục thực hiện hợp đồng với thỏa thuận bổ sung về thời điểm bàn giao căn hộ mới hoặc đơn phương chấm dứt hợp đồng theo thỏa thuận tại Điều 15 của hợp đồng này (Document 1). Ngoài ra, nếu bên mua đã thanh toán tiền mua căn hộ theo tiến độ thỏa thuận nhưng bên bán vẫn chưa bàn giao căn hộ sau thời hạn quy định, bên bán phải thanh toán cho bên mua khoản tiền phạt vi phạm với lãi suất đã thỏa thuận (Document 4).",
+      "contexts": [
+        "*- Nếu Bên bán chậm bàn giao căn hộ quá ………… ngày, kể từ ngày phải bàn giao căn hộ theo thỏa thuận tại Điều 8 của hợp đồng này thì Bên mua có quyền tiếp tục thực hiện hợp đồng này với thỏa thuận bổ sung về thời điểm bàn giao căn hộ mới hoặc đơn phương chấm dứt hợp đồng theo thỏa thuận tại Điều 15 của hợp đồng này.*",
+        "Trường hợp Bên mua hoặc người được Bên mua ủy quyền hợp pháp không đến nhận bàn giao căn hộ theo thông báo của Bên bán trong thời hạn ………… ngày hoặc đến kiểm tra nhưng không nhận bàn giao căn hộ mà không có lý do chính đáng (trừ trường hợp thuộc diện thỏa thuận tại điểm g khoản 1 Điều 6 của hợp đồng này) thì kể từ ngày đến hạn bàn giao căn hộ theo thông báo của Bên bán được xem như Bên mua đã đồng ý, chính thức nhận bàn giao căn hộ theo thực tế và Bên bán đã thực hiện xong trách nhiệm bàn giao",
+        "b) Yêu cầu Bên mua nhận bàn giao căn hộ theo đúng thời hạn thỏa thuận ghi trong hợp đồng này;\n\nc) Được quyền từ chối bàn giao căn hộ hoặc bàn giao bản chính Giấy chứng nhận của Bên mua cho đến khi Bên mua thanh toán tiền theo thỏa thuận trong hợp đồng này;",
+        "*- Nếu Bên mua đã thanh toán tiền mua căn hộ theo tiến độ thỏa thuận trong hợp đồng này nhưng quá thời hạn ………… ngày, kể từ ngày Bên bán phải bàn giao căn hộ theo thỏa thuận tại Điều 8 của hợp đồng này mà Bên bán vẫn chưa bàn giao căn hộ cho Bên mua thì Bên bán phải thanh toán cho Bên mua khoản tiền phạt vi phạm với lãi suất là ………% (………phần trăm) (các bên thỏa thuận cụ thể % lãi suất/ngày hoặc theo từng tháng và lãi suất có kỳ hạn ………… tháng hoặc không kỳ hạn) do Ngân hàng ………… công bố tại",
+        "2. Bên bán bàn giao căn hộ cho Bên mua vào ………… *(ghi rõ thời gian bàn giao căn hộ).*\n\nViệc bàn giao căn hộ có thể sớm hơn hoặc muộn hơn so với thời gian quy định tại khoản này, nhưng không được chậm quá ………… ngày, kể từ thời điểm đến hạn bàn giao căn hộ cho Bên mua; Bên bán phải có văn bản thông báo cho Bên mua biết lý do chậm bàn giao căn hộ *(Trường hợp không thể bàn giao căn hộ không đúng thời hạn thì các bên phải thỏa thuận về các nội dung liên quan đến việc thay đổi thời hạn bàn giao).*"
+      ],
+      "ground_truth": "Nếu bên mua đã thanh toán đúng tiến độ nhưng bên bán chậm bàn giao quá thời hạn thỏa thuận, bên bán phải trả cho bên mua khoản tiền phạt vi phạm tính theo lãi suất trên số tiền đã thanh toán, tính từ ngày phải bàn giao đến ngày bàn giao thực tế. Nếu chậm bàn giao vượt quá số ngày thỏa thuận, bên mua có quyền tiếp tục hợp đồng với thời điểm bàn giao mới hoặc đơn phương chấm dứt hợp đồng; khi đó bên bán phải hoàn trả toàn bộ số tiền đã nhận và bồi thường một khoản phạt vi phạm theo tỷ lệ phần trăm giá trị hợp đồng đã thỏa thuận.",
+      "reference_context": "Nếu Bên mua đã thanh toán tiền mua căn hộ theo tiến độ thỏa thuận... nhưng quá thời hạn... mà Bên bán vẫn chưa bàn giao căn hộ... thì Bên bán phải thanh toán cho Bên mua khoản tiền phạt vi phạm... Nếu Bên bán chậm bàn giao căn hộ quá ... ngày... thì Bên mua có quyền tiếp tục thực hiện hợp đồng... hoặc đơn phương chấm dứt hợp đồng... Bên bán phải hoàn trả lại toàn bộ số tiền mà Bên mua đã thanh toán... và bồi thường cho Bên mua khoản tiền phạt vi phạm hợp đồng.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.5080675083494124,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q17",
+      "question": "Sự kiện bất khả kháng trong hợp đồng mua bán căn hộ mẫu số 1a bao gồm những trường hợp nào, và khó khăn tài chính có được coi là bất khả kháng không?",
+      "answer": "Sự kiện bất khả kháng trong hợp đồng mua bán căn hộ mẫu số 1a không được liệt kê cụ thể trong các tài liệu đã cung cấp, vì vậy không thể xác định rõ các trường hợp cụ thể nào được coi là bất khả kháng. Tuy nhiên, có một khẳng định rõ ràng rằng \"mọi trường hợp khó khăn về tài chính đơn thuần sẽ không được coi là trường hợp bất khả kháng\" (Document 1).",
+      "contexts": [
+        "2. Mọi trường hợp khó khăn về tài chính đơn thuần sẽ không được coi là trường hợp bất khả kháng.",
+        "3. Khi xuất hiện một trong các trường hợp bất khả kháng theo thỏa thuận tại khoản 1 Điều này thì bên bị tác động bởi trường hợp bất khả kháng phải thông báo bằng văn bản hoặc thông báo trực tiếp cho bên còn lại biết trong thời hạn …….. ngày, kể từ ngày xảy ra trường hợp bất khả kháng (*nếu có giấy tờ chứng minh về lý do bất khả kháng thì bên bị tác động phải xuất trình giấy tờ này*)",
+        "d) Trong trường hợp bên bị tác động bởi sự kiện bất khả kháng không thể khắc phục được để tiếp tục thực hiện nghĩa vụ của mình trong thời hạn ………… ngày, kể từ ngày xảy ra sự kiện bất khả kháng và hai bên cũng không có thỏa thuận khác thì một trong hai bên có quyền đơn phương chấm dứt hợp đồng này và việc chấm dứt hợp đồng này không được coi là vi phạm hợp đồng.",
+        "d) Trong trường hợp bên bị tác động bởi sự kiện bất khả kháng không thể khắc phục được để tiếp tục thực hiện nghĩa vụ của mình trong thời hạn... ngày, kể từ ngày xảy ra sự kiện bất khả kháng và hai bên cũng không có thỏa thuận khác thì một trong hai bên có quyền đơn phương chấm dứt hợp đồng này và việc chấm dứt hợp đồng này không được coi là vi phạm hợp đồng.",
+        ". Khi xuất hiện một trong các trường hợp bất khả kháng theo thỏa thuận tại khoản 1 Điều này thì bên bị tác động bởi trường hợp bất khả kháng phải thông báo bằng văn bản hoặc thông báo trực tiếp cho bên còn lại biết trong thời hạn ………… ngày, kể từ ngày xảy ra trường hợp bất khả kháng *(nếu có giấy tờ chứng minh về lý do bất khả kháng thì bên bị tác động phải xuất trình giấy tờ này).* Việc bên bị tác động bởi trường hợp bất khả kháng không thực hiện được nghĩa vụ của mình sẽ không bị coi là vi"
+      ],
+      "ground_truth": "Sự kiện bất khả kháng gồm: chiến tranh, thiên tai hoặc thay đổi chính sách pháp luật của Nhà nước; phải thực hiện quyết định của cơ quan nhà nước có thẩm quyền hoặc trường hợp khác do pháp luật quy định; tai nạn, ốm đau phải cấp cứu tại cơ sở y tế. Khó khăn về tài chính đơn thuần không được coi là sự kiện bất khả kháng.",
+      "reference_context": "Các bên nhất trí thỏa thuận một trong các trường hợp sau đây được coi là sự kiện bất khả kháng: a) Do chiến tranh hoặc do thiên tai hoặc do thay đổi chính sách pháp luật của Nhà nước; b) Do phải thực hiện quyết định của cơ quan nhà nước có thẩm quyền...; c) Do tai nạn, ốm đau thuộc diện phải đi cấp cứu... Mọi trường hợp khó khăn về tài chính đơn thuần sẽ không được coi là trường hợp bất khả kháng.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.5,
+      "context_precision": 0.7555555555303703
+    },
+    {
+      "id": "q18",
+      "question": "Khi xảy ra tranh chấp về hợp đồng mua bán căn hộ mà hai bên không tự thỏa thuận được thì giải quyết ở đâu?",
+      "answer": "Khi xảy ra tranh chấp về hợp đồng mua bán căn hộ mà hai bên không tự thỏa thuận được, tranh chấp sẽ được giải quyết tại cơ quan Tòa án theo quy định pháp luật (Document 1, Điều 18).",
+      "contexts": [
+        "**Điều 18. Giải quyết tranh chấp**\n\nCác bên có trách nhiệm thỏa thuận cụ thể cách thức, hình thức giải quyết tranh chấp về các nội dung của hợp đồng khi có tranh chấp phát sinh và lựa chọn………… (cơ quan Tòa án) để giải quyết theo quy định pháp luật khi hai bên không tự thỏa thuận giải quyết được.\n\n**Điều 19. Hiệu lực của hợp đồng**\n\n1. Hợp đồng này có hiệu lực từ ngày ……………………………………………………",
+        "**Điều 17. Giải quyết tranh chấp**\n\nCác bên có trách nhiệm thỏa thuận cụ thể cách thức, hình thức giải quyết tranh chấp về các nội dung của hợp đồng khi có tranh chấp phát sinh và lựa chọn ………..(cơ quan Tòa án) để giải quyết theo quy định pháp luật khi hai bên không tự thỏa thuận giải quyết được.\n\n**Điều 18. Thời điểm có hiệu lực của hợp đồng**\n\n1. Hợp đồng này có hiệu lực kể từ ngày ........................................................",
+        "**Điều 15. Chấm dứt hợp đồng**\n\n1. Hợp đồng này được chấm dứt khi xảy ra một trong các trường hợp sau đây:\n\na) Hai bên đồng ý chấm dứt hợp đồng bằng văn bản. Trong trường hợp này, hai bên lập văn bản thỏa thuận cụ thể các điều kiện và thời hạn chấm dứt hợp đồng;\n\nb) Bên mua chậm thanh toán tiền mua căn hộ theo thỏa thuận tại khoản 1 Điều 12 của hợp đồng này;\n\nc) Bên bán chậm bàn giao căn hộ theo thỏa thuận tại khoản 2 Điều 12 của hợp đồng này;",
+        "do cơ quan nhà nước có thẩm quyền cấp cho Bên mua căn hộ theo quy định của pháp luật đất đai.",
+        "c) Số tiền mua căn hộ theo hợp đồng này là hợp pháp, không có tranh chấp với bên thứ ba. Bên bán sẽ không phải chịu trách nhiệm đối với việc tranh chấp khoản tiền mà Bên mua đã thanh toán cho Bên bán theo hợp đồng này. Trong trường hợp có tranh chấp về khoản tiền mua căn hộ này thì hợp đồng này vẫn có hiệu lực đối với hai bên;\n\nd) Cung cấp các giấy tờ cần thiết khi Bên bán yêu cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên mua."
+      ],
+      "ground_truth": "Hai bên có trách nhiệm thỏa thuận trước cách thức, hình thức giải quyết tranh chấp; nếu không tự thỏa thuận giải quyết được thì tranh chấp sẽ được đưa ra cơ quan Tòa án để giải quyết theo quy định của pháp luật (các bên có thể lựa chọn cơ quan giải quyết tranh chấp khác nếu đã thỏa thuận trong hợp đồng).",
+      "reference_context": "Các bên có trách nhiệm thỏa thuận cụ thể cách thức, hình thức giải quyết tranh chấp về các nội dung của hợp đồng khi có tranh chấp phát sinh và lựa chọn ... (cơ quan Tòa án) để giải quyết theo quy định pháp luật khi hai bên không tự thỏa thuận giải quyết được.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.5792552930919393,
+      "context_recall": 0.6666666666666666,
+      "context_precision": 0.99999999995
+    },
+    {
+      "id": "q19",
+      "question": "Trong hợp đồng kinh doanh bất động sản, những loại hợp đồng nào liên quan đến mua bán hoặc thuê mua nhà ở?",
+      "answer": "Trong hợp đồng kinh doanh bất động sản, các loại hợp đồng liên quan đến mua bán hoặc thuê mua nhà ở bao gồm:\n\n1. Hợp đồng mua bán nhà ở hình thành trong tương lai;\n2. Hợp đồng thuê mua nhà ở hình thành trong tương lai;\n3. Hợp đồng thuê mua công trình xây dựng có sẵn (Luật Kinh doanh bất động sản, Điều 44).",
+      "contexts": [
+        "d) Thực hiện nghĩa vụ tài chính đối với Nhà nước theo quy định của pháp luật;\n\nđ) Quyền, nghĩa vụ khác theo hợp đồng.\n\nChương VI\nHỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN\n\nMục 1\nCÁC LOẠI HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN,\nSỬ DỤNG HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN\n\nĐiều 44. Hợp đồng trong kinh doanh bất động sản\n\n1. Các loại hợp đồng kinh doanh bất động sản bao gồm:\n\na) Hợp đồng mua bán, hợp đồng thuê mua nhà ở;\n\nb) Hợp đồng thuê nhà ở;",
+        "**Bảng 2: Các loại hợp đồng kinh doanh dịch vụ bất động sản**\n\n|  |  |\n| --- | --- |\n| **Stt** | **Loại Hợp Đồng** |\n| 1 | Hợp đồng dịch vụ sàn giao dịch bất động sản |\n| 2 | Hợp đồng dịch vụ môi giới bất động sản |\n| 3 | Hợp đồng dịch vụ tư vấn bất động sản |\n| 4 | Hợp đồng dịch vụ quản lý bất động sản |\n\n### ***9.2. Bổ sung nội dung chính trong từng loại hợp đồng***\n\n- Bổ sung thêm nội dung chính trong Hợp đồng mua bán, cho thuê, cho thuê mua nhà, công trình xây dựng về:",
+        "trong hợp đồng mua bán, thuê mua nhà ở hình thành trong tương lai.",
+        "2.  Giao  dịch  mua  bán,  cho  thuê  mua,  cho  thuê  nhà  ở  thương  mại  của  doanh\nnghiệp,  hợp  tác  xã,  liên  hiệp  hợp  tác  xã  có  chức  năng  kinh  doanh  bất  động  sản,\ngiao dịch chuyển nhượng hợp đồng mua bán nhà ở được thực hiện theo quy định\ncủa pháp luật về kinh doanh bất động sản.\n\nĐiều 2. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:",
+        "xây dựng\n\n1.  Hợp  đồng  mua  bán,  thuê  mua  nhà  ở,  công  trình  xây  dựng  được  chuyển\n\nnhượng theo quy định của Luật này bao gồm:\n\na) Hợp đồng mua bán nhà ở hình thành trong tương lai;\n\nb) Hợp đồng thuê mua nhà ở hình thành trong tương lai;\n\nc) Hợp đồng thuê mua công trình xây dựng có sẵn.\n\n2. Quy định về chuyển nhượng hợp đồng kinh doanh bất động sản tại Mục 2\nChương VI của Luật này không áp dụng đối với hợp đồng mua bán, thuê mua nhà\nở xã hội."
+      ],
+      "ground_truth": "Theo Luật Kinh doanh bất động sản, các loại hợp đồng kinh doanh bất động sản liên quan đến nhà ở gồm: hợp đồng mua bán nhà ở, hợp đồng thuê mua nhà ở, hợp đồng thuê nhà ở, và hợp đồng chuyển nhượng hợp đồng mua bán/thuê mua nhà ở. Ngoài ra còn có các hợp đồng mua bán, thuê mua, thuê công trình xây dựng phục vụ mục đích du lịch, lưu trú, giáo dục, y tế, thương mại...",
+      "reference_context": "Các loại hợp đồng kinh doanh bất động sản bao gồm: a) Hợp đồng mua bán, hợp đồng thuê mua nhà ở; b) Hợp đồng thuê nhà ở; ... l) Hợp đồng chuyển nhượng hợp đồng mua bán, hợp đồng thuê mua nhà ở, công trình xây dựng.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5671561396999142,
+      "context_recall": 0.5,
+      "context_precision": 0.99999999998
+    },
+    {
+      "id": "q20",
+      "question": "Nếu bên mua muốn thế chấp căn hộ đã mua cho ngân hàng trước khi được cấp Giấy chứng nhận thì cần làm gì theo hợp đồng mẫu số 1a?",
+      "answer": "Theo hợp đồng mẫu số 1a, nếu bên mua muốn thế chấp căn hộ đã mua cho tổ chức tín dụng trước khi được cấp Giấy chứng nhận, bên mua phải thông báo trước bằng văn bản để bên bán cùng bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng và pháp luật (Document 1).",
+      "contexts": [
+        "**Điều 10. Chuyển giao quyền và nghĩa vụ**\n\n1. Trường hợp Bên mua có nhu cầu thế chấp căn hộ đã mua cho tổ chức tín dụng đang hoạt động tại Việt Nam trước khi Bên mua được cấp Giấy chứng nhận thì Bên mua phải thông báo trước bằng văn bản để Bên bán cùng Bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng, quy định pháp luật.",
+        "c) Số tiền mua căn hộ theo hợp đồng này là hợp pháp, không có tranh chấp với bên thứ ba. Bên bán sẽ không phải chịu trách nhiệm đối với việc tranh chấp khoản tiền mà Bên mua đã thanh toán cho Bên bán theo hợp đồng này. Trong trường hợp có tranh chấp về khoản tiền mua căn hộ này thì hợp đồng này vẫn có hiệu lực đối với hai bên;\n\nd) Cung cấp các giấy tờ cần thiết khi Bên bán yêu cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên mua.",
+        "đ) Nhận Giấy chứng nhận sau khi đã thanh toán đủ 100% tiền mua căn hộ và các loại thuế, phí, lệ phí liên quan đến căn hộ mua theo thỏa thuận trong hợp đồng này và theo quy định của pháp luật;\n\ne) Yêu cầu Bên bán hoàn thành việc xây dựng các công trình hạ tầng kỹ thuật và hạ tầng xã hội theo đúng nội dung, tiến độ dự án đã được phê duyệt;",
+        ". Đối với hợp đồng mua bán căn hộ hình thành trong tương lai thì phải thỏa thuận ghi rõ các nội dung: số, ngày tháng năm của thỏa thuận cấp bảo lãnh về nhà ở, trừ trường hợp bên mua, thuê mua lựa chọn không có bảo lãnh cho nghĩa vụ tài chính của chủ đầu tư đối với mình; số ngày tháng năm văn bản của cơ quan quản lý kinh doanh bất động sản cấp tỉnh nơi có nhà chung cư về việc nhà ở hình thành trong tương lai đủ điều kiện đưa vào kinh doanh; kèm theo hợp đồng này còn có bản sao có chứng thực: thỏa",
+        "8. Các thỏa thuận khác của hai bên *(các thỏa thuận này phải không trái luật và không trái đạo đức xã hội)*:\n\n**Điều 7. Chuyển giao quyền và nghĩa vụ**\n\n1. Trường hợp Bên mua có nhu cầu thế chấp nhà ở đã mua cho tổ chức tín dụng đang hoạt động tại Việt Nam trước khi Bên mua được cấp Giấy chứng nhận thì Bên mua phải thông báo trước bằng văn bản để Bên bán cùng Bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng."
+      ],
+      "ground_truth": "Bên mua phải thông báo trước bằng văn bản cho bên bán để hai bên cùng phối hợp thực hiện các thủ tục cần thiết theo quy định của tổ chức tín dụng và quy định pháp luật liên quan.",
+      "reference_context": "Trường hợp Bên mua có nhu cầu thế chấp căn hộ đã mua cho tổ chức tín dụng đang hoạt động tại Việt Nam trước khi Bên mua được cấp Giấy chứng nhận thì Bên mua phải thông báo trước bằng văn bản để Bên bán cùng Bên mua làm các thủ tục cần thiết theo quy định của tổ chức tín dụng, quy định pháp luật.",
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.5972770903387062,
+      "context_recall": 1.0,
+      "context_precision": 0.699999999965
+    }
+  ]
+}

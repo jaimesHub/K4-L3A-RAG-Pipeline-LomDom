@@ -85,13 +85,17 @@ class Handler(BaseHTTPRequestHandler):
             self._send_json(500, {"error": str(error)})
             return
 
+        # src/contracts.py's SearchResult nests title/source under
+        # "metadata" (unlike the old chatbot-only engine, which had them
+        # flat) - use .get() throughout since metadata.url may be None and
+        # a missing key here must not become a 500 on the first request.
         sources = [
             {
-                "title": source["title"],
-                "source": source["source"],
-                "score": round(source["score"], 4),
-                "retrieval_method": source["retrieval_method"],
-                "snippet": source["content"][:400],
+                "title": source.get("metadata", {}).get("title", ""),
+                "source": source.get("metadata", {}).get("source", ""),
+                "score": round(source.get("score", 0.0), 4),
+                "retrieval_method": source.get("retrieval_method", ""),
+                "snippet": source.get("content", "")[:400],
             }
             for source in result["sources"]
         ]
@@ -99,7 +103,13 @@ class Handler(BaseHTTPRequestHandler):
             200,
             {
                 "answer": result["answer"],
-                "retrieval_method": result["retrieval_method"],
+                # src/contracts.py's GenerationResult key is
+                # "retrieval_source"; index.html's JS reads
+                # "retrieval_method" at the top level (see
+                # static/index.html, badge/mode rendering) - map the
+                # contract key to that UI key here instead of renaming it
+                # in engine.py or touching the UI's JS.
+                "retrieval_method": result.get("retrieval_source", "none"),
                 "sources": sources,
             },
         )
