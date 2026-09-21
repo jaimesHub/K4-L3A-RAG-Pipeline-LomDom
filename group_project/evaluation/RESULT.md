@@ -62,3 +62,15 @@ Config B (hybrid+RRF) cho điểm trung bình cao hơn 0.022 nhưng `answer_rele
 | Experiment | Baseline | Metric delta | Latency/cost delta | Conclusion |
 | ---------- | -------- | -----------: | ------------------: | ---------- |
 | Tăng top_k từ 5 lên 10 (Config B hybrid) | Config B avg 0.715 | +0.02 context recall (ước tính) | +15% latency do LLM context dài hơn | Cải thiện recall nhưng precision giảm nhẹ; top_k=5 là điểm cân bằng tốt cho corpus ~2000 chunk |
+
+## PageIndex Fallback — Không Kích Hoạt Trong Bản Nộp
+
+Bản nộp này **không kích hoạt** fallback PageIndex do `PAGEINDEX_API_KEY` không được cấu hình trong `.env`. Hệ quả: `pageindex_search()` trong `src/task8_pageindex_vectorless.py` luôn trả list rỗng, nên `retrieve()` trong `src/task9_retrieval_pipeline.py` suy biến về trả kết quả hybrid (dense + BM25 + RRF) thay vì gọi PageIndex khi dense score thấp. Đây là suy biến an toàn đã được thiết kế sẵn — xem `src/task9_retrieval_pipeline.py:50-59`: chỉ khi `pageindex_search()` trả về kết quả khác rỗng thì `retrieve()` mới `return fallback`; fallback rỗng hoặc ném exception đều rơi xuống `return hybrid` ở cuối hàm.
+
+Nhánh fallback đã được phủ bởi hai contract test:
+- `test_retrieve_survives_fallback_provider_error` (kiểm `pageindex_search()` ném exception, pipeline suy biến an toàn về hybrid).
+- `test_retrieve_uses_dense_score_for_fallback` (kiểm quyết định kích hoạt fallback dùng `dense[0]["score"]` thô, không dùng RRF score).
+
+Giải pháp muốn bật lại PageIndex: điền `PAGEINDEX_API_KEY` vào `.env` rồi chạy `python -m src.task8_pageindex_vectorless` để upload PDF và cache `doc_id` vào `data/.pageindex_doc_ids.json`.
+
+**Ghi chú về SCORE_THRESHOLD:** Ngưỡng 0.45 được calibrate trên thực tế corpus (in-domain 0.7372, out-of-domain 0.3802). Khi không có key PageIndex, thay đổi threshold không làm đổi hành vi người dùng vì fallback vẫn trả hybrid; nhưng giữ 0.45 là đúng vì đó là giá trị đúng khi key được cấu hình, và spec đòi calibrate bằng dữ liệu thật.

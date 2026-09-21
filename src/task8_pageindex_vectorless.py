@@ -28,6 +28,9 @@ load_dotenv()
 
 PAGEINDEX_API_KEY = os.getenv("PAGEINDEX_API_KEY", "")
 
+# Cờ để in cảnh báo thiếu key chỉ một lần mỗi tiến trình
+_WARNED_NO_KEY = False
+
 LANDING_LEGAL_DIR = Path(__file__).parent.parent / "data" / "landing" / "legal"
 
 # Cache file lưu mapping filename -> doc_id để không upload lại mỗi lần chạy.
@@ -155,7 +158,10 @@ def pageindex_search(query: str, top_k: int = 5) -> list[dict]:
     Trả list rỗng nếu API key không có hoặc gặp lỗi — không crash pipeline.
     """
     if not PAGEINDEX_API_KEY:
-        print("[task8] PAGEINDEX_API_KEY chưa set, trả list rỗng.")
+        global _WARNED_NO_KEY
+        if not _WARNED_NO_KEY:
+            print("[task8] PAGEINDEX_API_KEY chưa set — fallback PageIndex tắt, pipeline suy biến về hybrid.")
+            _WARNED_NO_KEY = True
         return []
 
     doc_ids = _get_doc_ids()
